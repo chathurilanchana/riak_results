@@ -1,0 +1,203 @@
+2016-03-05 21:41:56.468 [info] <0.7.0> Application lager started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.497 [info] <0.7.0> Application sasl started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.497 [info] <0.7.0> Application asn1 started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.503 [info] <0.7.0> Application crypto started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.503 [info] <0.7.0> Application public_key started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.516 [info] <0.7.0> Application ssl started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.522 [info] <0.7.0> Application riak_sysmon started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.541 [info] <0.7.0> Application os_mon started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.557 [info] <0.7.0> Application runtime_tools started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.569 [info] <0.7.0> Application erlang_js started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.569 [info] <0.7.0> Application xmerl started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.649 [info] <0.7.0> Application inets started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.649 [info] <0.7.0> Application mochiweb started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.680 [info] <0.7.0> Application webmachine started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.680 [info] <0.7.0> Application basho_stats started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.696 [info] <0.7.0> Application bitcask started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.759 [info] <0.7.0> Application clique started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.759 [info] <0.7.0> Application eleveldb started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.760 [info] <0.7.0> Application pbkdf2 started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.760 [info] <0.7.0> Application poolboy started on node 'riak@172.31.0.117'
+2016-03-05 21:41:56.864 [info] <0.155.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2016-03-05 21:41:56.865 [info] <0.7.0> Application exometer_core started on node 'riak@172.31.0.117'
+2016-03-05 21:41:57.111 [warning] <0.175.0>@riak_core_ring_manager:reload_ring:359 No ring file available.
+2016-03-05 21:41:57.633 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2016-03-05 21:41:57.664 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2016-03-05 21:41:57.690 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2016-03-05 21:41:57.716 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2016-03-05 21:41:57.741 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2016-03-05 21:41:57.765 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2016-03-05 21:41:57.791 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2016-03-05 21:41:58.032 [info] <0.7.0> Application riak_core started on node 'riak@172.31.0.117'
+2016-03-05 21:41:58.045 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_pipe,trace_format} = ordsets
+2016-03-05 21:41:58.142 [info] <0.7.0> Application riak_pipe started on node 'riak@172.31.0.117'
+2016-03-05 21:41:58.152 [info] <0.7.0> Application sidejob started on node 'riak@172.31.0.117'
+2016-03-05 21:41:58.152 [info] <0.7.0> Application riak_dt started on node 'riak@172.31.0.117'
+2016-03-05 21:41:58.152 [info] <0.7.0> Application protobuffs started on node 'riak@172.31.0.117'
+2016-03-05 21:41:58.152 [info] <0.7.0> Application riak_pb started on node 'riak@172.31.0.117'
+2016-03-05 21:41:58.263 [info] <0.7.0> Application riak_api started on node 'riak@172.31.0.117'
+2016-03-05 21:41:58.377 [info] <0.325.0>@riak_kv_env:doc_env:46 Environment and OS variables:
+2016-03-05 21:41:58.549 [info] <0.325.0> riak_kv_env: Open file limit: 65536
+2016-03-05 21:41:58.549 [warning] <0.325.0> riak_kv_env: Cores are disabled, this may hinder debugging
+2016-03-05 21:41:58.549 [info] <0.325.0> riak_kv_env: Erlang process limit: 262144
+2016-03-05 21:41:58.549 [info] <0.325.0> riak_kv_env: Erlang ports limit: 65536
+2016-03-05 21:41:58.549 [info] <0.325.0> riak_kv_env: ETS table count limit: 256000
+2016-03-05 21:41:58.549 [info] <0.325.0> riak_kv_env: Thread pool size: 64
+2016-03-05 21:41:58.550 [info] <0.325.0> riak_kv_env: Generations before full sweep: 0
+2016-03-05 21:41:58.550 [info] <0.325.0> riak_kv_env: Schedulers: 2 for 2 cores
+2016-03-05 21:41:58.550 [warning] <0.325.0> riak_kv_env: sysctl vm.swappiness is 60, should be no more than 0)
+2016-03-05 21:41:58.550 [warning] <0.325.0> riak_kv_env: sysctl net.core.wmem_default is 229376, should be at least 8388608)
+2016-03-05 21:41:58.550 [warning] <0.325.0> riak_kv_env: sysctl net.core.rmem_default is 229376, should be at least 8388608)
+2016-03-05 21:41:58.587 [info] <0.363.0>@riak_core:wait_for_service:504 Waiting for service riak_kv to start (0 seconds)
+2016-03-05 21:41:58.639 [info] <0.380.0>@riak_kv_entropy_manager:set_aae_throttle_limits:790 Setting AAE throttle limits: [{-1,0},{200,10},{500,50},{750,250},{900,1000},{1100,5000}]
+2016-03-05 21:41:58.725 [info] <0.389.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.389.0>)
+2016-03-05 21:41:58.728 [info] <0.390.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.390.0>)
+2016-03-05 21:41:58.731 [info] <0.391.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.391.0>)
+2016-03-05 21:41:58.735 [info] <0.392.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.392.0>)
+2016-03-05 21:41:58.739 [info] <0.393.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.393.0>)
+2016-03-05 21:41:58.743 [info] <0.394.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.394.0>)
+2016-03-05 21:41:58.748 [info] <0.395.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.395.0>)
+2016-03-05 21:41:58.751 [info] <0.396.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.396.0>)
+2016-03-05 21:41:58.756 [info] <0.398.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.398.0>)
+2016-03-05 21:41:58.760 [info] <0.399.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.399.0>)
+2016-03-05 21:41:58.763 [info] <0.400.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.400.0>)
+2016-03-05 21:41:58.767 [info] <0.401.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.401.0>)
+2016-03-05 21:41:58.772 [info] <0.402.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.402.0>)
+2016-03-05 21:41:58.776 [info] <0.403.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.403.0>)
+2016-03-05 21:41:58.780 [info] <0.405.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_hook) host starting (<0.405.0>)
+2016-03-05 21:41:58.785 [info] <0.406.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_hook) host starting (<0.406.0>)
+2016-03-05 21:41:58.792 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,vnode_vclocks} = true
+2016-03-05 21:41:58.817 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,legacy_keylisting} = false
+2016-03-05 21:41:58.843 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,listkeys_backpressure} = true
+2016-03-05 21:41:58.868 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,index_backpressure} = true
+2016-03-05 21:41:58.893 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,mapred_system} = pipe
+2016-03-05 21:41:58.918 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,mapred_2i_pipe} = true
+2016-03-05 21:41:58.943 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,anti_entropy} = enabled_v1
+2016-03-05 21:41:58.969 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,handoff_data_encoding} = encode_raw
+2016-03-05 21:41:58.994 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,object_format} = v1
+2016-03-05 21:41:59.011 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,secondary_index_version} = v3
+2016-03-05 21:41:59.037 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,vclock_data_encoding} = encode_zlib
+2016-03-05 21:41:59.053 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,crdt} = [pncounter,riak_dt_pncounter,riak_dt_orswot,riak_dt_map]
+2016-03-05 21:41:59.070 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,crdt_epoch_versions} = [{riak_dt_map,2},{riak_dt_orswot,2},{riak_dt_pncounter,2}]
+2016-03-05 21:41:59.087 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,put_fsm_ack_execute} = enabled
+2016-03-05 21:41:59.112 [warning] <0.6.0> lager_error_logger_h dropped 1 messages in the last second that exceeded the limit of 100 messages/sec
+2016-03-05 21:41:59.186 [info] <0.7.0> Application riak_kv started on node 'riak@172.31.0.117'
+2016-03-05 21:41:59.206 [info] <0.7.0> Application merge_index started on node 'riak@172.31.0.117'
+2016-03-05 21:41:59.211 [info] <0.7.0> Application riak_search started on node 'riak@172.31.0.117'
+2016-03-05 21:41:59.227 [info] <0.7.0> Application ibrowse started on node 'riak@172.31.0.117'
+2016-03-05 21:41:59.238 [info] <0.7.0> Application yokozuna started on node 'riak@172.31.0.117'
+2016-03-05 21:41:59.253 [info] <0.7.0> Application cluster_info started on node 'riak@172.31.0.117'
+2016-03-05 21:41:59.265 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_control,member_info_version} = v1
+2016-03-05 21:41:59.289 [info] <0.7.0> Application riak_control started on node 'riak@172.31.0.117'
+2016-03-05 21:41:59.289 [info] <0.7.0> Application erlydtl started on node 'riak@172.31.0.117'
+2016-03-05 21:41:59.329 [info] <0.7.0> Application riak_auth_mods started on node 'riak@172.31.0.117'
+2016-03-05 21:42:13.118 [info] <0.363.0>@riak_core:wait_for_service:498 Wait complete for service riak_kv (13 seconds)
+2016-03-05 21:42:13.641 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from undefined -> 0 msec/key, based on maximum vnode mailbox size 1 from 'riak@172.31.0.117'
+2016-03-05 21:42:21.108 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.182' joined cluster with status 'joining'
+2016-03-05 21:42:21.203 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.174' joined cluster with status 'joining'
+2016-03-05 21:42:21.462 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.199' joined cluster with status 'joining'
+2016-03-05 21:42:23.087 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.179' joined cluster with status 'joining'
+2016-03-05 21:42:23.220 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.180' joined cluster with status 'joining'
+2016-03-05 21:43:46.299 [info] <0.2845.0>@riak_kv_sup:start_ordering_service:49 causal all to one started
+2016-03-05 21:43:46.305 [info] <0.2975.0>@riak_kv_ordering_service:init:61 ordering service started
+2016-03-05 21:43:46.305 [info] <0.2975.0>@riak_kv_ordering_service:init:64 total partitions are 64 and server name is causal_ordering_service
+2016-03-05 21:43:46.307 [info] <0.2975.0>@riak_kv_ordering_service:init:73 dictionary size is 64 
+2016-03-05 21:43:47.565 [info] <0.2988.0>@riak_core_handoff_sender:start_fold:153 Starting ownership transfer of riak_kv_vnode from 'riak@172.31.0.117' 1118962191081472546749696200048404186924073353216 to 'riak@172.31.0.174' 1118962191081472546749696200048404186924073353216
+2016-03-05 21:43:47.566 [info] <0.3001.0>@riak_core_handoff_receiver:process_message:121 Receiving handoff data for partition riak_kv_vnode:1118962191081472546749696200048404186924073353216 from {"127.0.0.1",40966}
+2016-03-05 21:43:47.582 [info] <0.2988.0>@riak_core_handoff_sender:start_fold:245 ownership transfer of riak_kv_vnode from 'riak@172.31.0.117' 1118962191081472546749696200048404186924073353216 to 'riak@172.31.0.174' 1118962191081472546749696200048404186924073353216 completed: sent 202.00 B bytes in 1 of 1 objects in 0.01 seconds (21.89 KB/second)
+2016-03-05 21:43:47.582 [info] <0.3001.0>@riak_core_handoff_receiver:handle_info:85 Handoff receiver for partition 1118962191081472546749696200048404186924073353216 exited after processing 1 objects from {"127.0.0.1",40966}
+2016-03-05 21:43:56.308 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 43: 56: added 0 deleted 0 max-delay 0 
+2016-03-05 21:44:06.309 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 44: 6: added 0 deleted 0 max-delay 0 
+2016-03-05 21:44:16.310 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 44: 16: added 0 deleted 0 max-delay 0 
+2016-03-05 21:44:26.311 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 44: 26: added 0 deleted 0 max-delay 0 
+2016-03-05 21:44:36.312 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 44: 36: added 0 deleted 0 max-delay 0 
+2016-03-05 21:44:46.313 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 44: 46: added 0 deleted 0 max-delay 0 
+2016-03-05 21:44:56.314 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 44: 56: added 0 deleted 0 max-delay 0 
+2016-03-05 21:45:06.315 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 45: 6: added 0 deleted 0 max-delay 0 
+2016-03-05 21:45:16.316 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 45: 16: added 0 deleted 0 max-delay 0 
+2016-03-05 21:45:26.317 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 45: 26: added 0 deleted 0 max-delay 0 
+2016-03-05 21:45:36.318 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 45: 36: added 0 deleted 0 max-delay 0 
+2016-03-05 21:45:46.319 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 45: 46: added 0 deleted 0 max-delay 0 
+2016-03-05 21:45:56.319 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 45: 56: added 0 deleted 0 max-delay 0 
+2016-03-05 21:46:06.320 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 46: 6: added 0 deleted 0 max-delay 0 
+2016-03-05 21:46:16.321 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 46: 16: added 0 deleted 0 max-delay 0 
+2016-03-05 21:46:26.322 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 46: 26: added 0 deleted 0 max-delay 0 
+2016-03-05 21:46:36.323 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 46: 36: added 0 deleted 0 max-delay 0 
+2016-03-05 21:46:46.324 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 46: 46: added 0 deleted 0 max-delay 0 
+2016-03-05 21:46:56.325 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 46: 56: added 0 deleted 0 max-delay 0 
+2016-03-05 21:47:06.326 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 47: 6: added 0 deleted 0 max-delay 0 
+2016-03-05 21:47:16.327 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 47: 16: added 0 deleted 0 max-delay 0 
+2016-03-05 21:47:26.328 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 47: 26: added 0 deleted 0 max-delay 0 
+2016-03-05 21:47:36.329 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:121 timestamp 21: 47: 36: added 0 deleted 0 max-delay 0 
+2016-03-05 21:47:46.336 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 47: 46: added 1753 deleted 1319 max-delay 1332151 
+2016-03-05 21:47:56.338 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 47: 56: added 18758 deleted 18458 max-delay 1332151 
+2016-03-05 21:48:06.340 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 48: 6: added 38546 deleted 38160 max-delay 1332151 
+2016-03-05 21:48:16.341 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 48: 16: added 55889 deleted 55655 max-delay 1332151 
+2016-03-05 21:48:26.342 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 48: 26: added 68497 deleted 68309 max-delay 1332151 
+2016-03-05 21:48:36.344 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 48: 36: added 87450 deleted 87204 max-delay 1332151 
+2016-03-05 21:48:46.345 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 48: 46: added 106018 deleted 105735 max-delay 1332151 
+2016-03-05 21:48:56.346 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 48: 56: added 118488 deleted 118153 max-delay 1332151 
+2016-03-05 21:49:06.348 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 49: 6: added 136538 deleted 136273 max-delay 1332151 
+2016-03-05 21:49:16.350 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 49: 16: added 154362 deleted 154023 max-delay 1332151 
+2016-03-05 21:49:26.352 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 49: 26: added 166527 deleted 166208 max-delay 1332151 
+2016-03-05 21:49:36.357 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 49: 36: added 183407 deleted 183075 max-delay 1332151 
+2016-03-05 21:49:46.358 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 49: 46: added 200682 deleted 200358 max-delay 1332151 
+2016-03-05 21:49:56.360 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 49: 56: added 214565 deleted 214305 max-delay 1332151 
+2016-03-05 21:50:06.361 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 50: 6: added 230717 deleted 230367 max-delay 1332151 
+2016-03-05 21:50:16.362 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 50: 16: added 247683 deleted 247303 max-delay 1332151 
+2016-03-05 21:50:26.363 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 50: 26: added 261339 deleted 261178 max-delay 1332151 
+2016-03-05 21:50:36.368 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 50: 36: added 276935 deleted 276545 max-delay 1332151 
+2016-03-05 21:50:46.373 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 50: 46: added 293379 deleted 293156 max-delay 1332151 
+2016-03-05 21:50:56.374 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 50: 56: added 308438 deleted 308205 max-delay 1332151 
+2016-03-05 21:51:06.375 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 51: 6: added 322938 deleted 322671 max-delay 1332151 
+2016-03-05 21:51:16.377 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 51: 16: added 339213 deleted 338702 max-delay 1332151 
+2016-03-05 21:51:26.381 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 51: 26: added 354954 deleted 354712 max-delay 1332151 
+2016-03-05 21:51:36.382 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 51: 36: added 369593 deleted 369381 max-delay 1332151 
+2016-03-05 21:51:46.383 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 51: 46: added 385046 deleted 384740 max-delay 1332151 
+2016-03-05 21:51:56.384 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 51: 56: added 400742 deleted 400364 max-delay 1332151 
+2016-03-05 21:52:06.388 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 52: 6: added 415781 deleted 415515 max-delay 1332151 
+2016-03-05 21:52:16.389 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 52: 16: added 430526 deleted 430301 max-delay 1332151 
+2016-03-05 21:52:26.390 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 52: 26: added 445702 deleted 445364 max-delay 1332151 
+2016-03-05 21:52:36.393 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 52: 36: added 459825 deleted 459528 max-delay 1332151 
+2016-03-05 21:52:46.394 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 52: 46: added 474341 deleted 474069 max-delay 1332151 
+2016-03-05 21:52:56.395 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 52: 56: added 489646 deleted 489341 max-delay 1332151 
+2016-03-05 21:53:06.396 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 53: 6: added 503291 deleted 503036 max-delay 1332151 
+2016-03-05 21:53:16.401 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 53: 16: added 516434 deleted 516181 max-delay 1332151 
+2016-03-05 21:53:26.402 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 53: 26: added 531460 deleted 531117 max-delay 1332151 
+2016-03-05 21:53:36.403 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 53: 36: added 546076 deleted 545848 max-delay 1332151 
+2016-03-05 21:53:46.404 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 53: 46: added 560033 deleted 559713 max-delay 1332151 
+2016-03-05 21:53:56.413 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 53: 56: added 574884 deleted 574586 max-delay 1332151 
+2016-03-05 21:54:06.414 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 54: 6: added 589776 deleted 589550 max-delay 1332151 
+2016-03-05 21:54:16.416 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 54: 16: added 604024 deleted 603640 max-delay 1332151 
+2016-03-05 21:54:26.417 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 54: 26: added 617757 deleted 617487 max-delay 1332151 
+2016-03-05 21:54:36.418 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 54: 36: added 632876 deleted 632532 max-delay 1332151 
+2016-03-05 21:54:46.424 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 54: 46: added 646805 deleted 646430 max-delay 1332151 
+2016-03-05 21:54:56.425 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 54: 56: added 661393 deleted 661087 max-delay 1332151 
+2016-03-05 21:55:06.426 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 55: 6: added 675799 deleted 675307 max-delay 1332151 
+2016-03-05 21:55:16.432 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 55: 16: added 690282 deleted 689964 max-delay 1332151 
+2016-03-05 21:55:26.437 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 55: 26: added 704843 deleted 704650 max-delay 1332151 
+2016-03-05 21:55:36.438 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 55: 36: added 719024 deleted 718704 max-delay 1332151 
+2016-03-05 21:55:46.439 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 55: 46: added 732379 deleted 732129 max-delay 1332151 
+2016-03-05 21:55:56.440 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 55: 56: added 745917 deleted 745554 max-delay 1332151 
+2016-03-05 21:56:06.441 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 56: 6: added 759352 deleted 759150 max-delay 1332151 
+2016-03-05 21:56:16.443 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 56: 16: added 773216 deleted 772882 max-delay 1332151 
+2016-03-05 21:56:26.444 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 56: 26: added 786285 deleted 785926 max-delay 1332151 
+2016-03-05 21:56:36.445 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 56: 36: added 800508 deleted 800050 max-delay 1332151 
+2016-03-05 21:56:46.446 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 56: 46: added 814449 deleted 814181 max-delay 1332151 
+2016-03-05 21:56:56.447 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 56: 56: added 827742 deleted 827464 max-delay 1332151 
+2016-03-05 21:57:06.453 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 57: 6: added 841708 deleted 841461 max-delay 1332151 
+2016-03-05 21:57:16.454 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 57: 16: added 855538 deleted 855242 max-delay 1332151 
+2016-03-05 21:57:26.457 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 57: 26: added 868635 deleted 868409 max-delay 1332151 
+2016-03-05 21:57:36.458 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 57: 36: added 881823 deleted 881510 max-delay 1332151 
+2016-03-05 21:57:46.459 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 57: 46: added 894477 deleted 894168 max-delay 1332151 
+2016-03-05 21:57:56.460 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 57: 56: added 897455 deleted 897293 max-delay 3578474 
+2016-03-05 21:58:06.461 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 58: 6: added 897455 deleted 897293 max-delay 13587838 
+2016-03-05 21:58:16.462 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 58: 16: added 897455 deleted 897293 max-delay 23602112 
+2016-03-05 21:58:26.463 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 58: 26: added 897455 deleted 897293 max-delay 33611482 
+2016-03-05 21:58:36.464 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 58: 36: added 897455 deleted 897293 max-delay 43621156 
+2016-03-05 21:58:46.465 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 58: 46: added 897455 deleted 897293 max-delay 53630348 
+2016-03-05 21:58:56.466 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 58: 56: added 897455 deleted 897293 max-delay 63580752 
+2016-03-05 21:59:06.466 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 59: 6: added 897455 deleted 897293 max-delay 73590276 
+2016-03-05 21:59:16.467 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 59: 16: added 897455 deleted 897293 max-delay 83600824 
+2016-03-05 21:59:26.468 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 59: 26: added 897455 deleted 897293 max-delay 93609160 
+2016-03-05 21:59:36.469 [info] <0.2975.0>@riak_kv_ordering_service:handle_info:119 timestamp 21: 59: 36: added 897455 deleted 897293 max-delay 103618636 
