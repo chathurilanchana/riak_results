@@ -1,0 +1,27 @@
+2016-03-05 23:59:55.886 [debug] <0.58.0>@lager_handler_watcher:94 Lager installed handler error_logger_lager_h into error_logger
+2016-03-05 23:59:55.886 [debug] <0.54.0>@lager_handler_watcher:94 Lager installed handler {lager_file_backend,
+                            "/root/Basho-Sequencer/basho_bench/tests/20160305_235955/error.log"} into lager_event
+2016-03-05 23:59:55.893 [debug] <0.56.0>@lager_handler_watcher:94 Lager installed handler {lager_file_backend,
+                            "/root/Basho-Sequencer/basho_bench/tests/20160305_235955/console.log"} into lager_event
+2016-03-05 23:59:55.980 [debug] <0.41.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.60.0>
+2016-03-05 23:59:55.980 [debug] <0.40.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.61.0>
+2016-03-05 23:59:55.981 [debug] <0.42.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.62.0>
+2016-03-05 23:59:55.981 [debug] <0.42.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0}]) at pid <0.63.0>
+2016-03-05 23:59:56.339 [debug] <0.50.0>@lager_handler_watcher:94 Lager installed handler lager_backend_throttle into lager_event
+2016-03-05 23:59:57.745 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-03-05 23:59:57.747 [notice] <0.47.0>@lager_file_backend:127 Changed loglevel of /root/Basho-Sequencer/basho_bench/tests/20160305_235955/console.log to debug
+2016-03-05 23:59:57.768 [info] <0.2.0>@basho_bench_keygen:dimension:213 No dimension available for key generator: {int_to_bin_bigendian,{uniform_int,35000}}
+2016-03-05 23:59:57.936 [debug] <0.72.0> Supervisor sasl_safe_sup started alarm_handler:start_link() at pid <0.73.0>
+2016-03-05 23:59:57.937 [debug] <0.72.0> Supervisor sasl_safe_sup started overload:start_link() at pid <0.74.0>
+2016-03-05 23:59:57.938 [debug] <0.71.0> Supervisor sasl_sup started supervisor:start_link({local,sasl_safe_sup}, sasl, safe) at pid <0.72.0>
+2016-03-05 23:59:57.967 [debug] <0.71.0> Supervisor sasl_sup started release_handler:start_link() at pid <0.75.0>
+2016-03-05 23:59:57.968 [info] <0.7.0> Application sasl started on node nonode@nohost
+2016-03-05 23:59:58.083 [debug] <0.80.0> Supervisor crypto_sup started crypto_server:start_link() at pid <0.81.0>
+2016-03-05 23:59:58.084 [info] <0.7.0> Application crypto started on node nonode@nohost
+2016-03-05 23:59:58.138 [debug] <0.90.0> Supervisor folsom_sup started folsom_sample_slide_sup:start_link() at pid <0.91.0>
+2016-03-05 23:59:58.146 [debug] <0.90.0> Supervisor folsom_sup started folsom_meter_timer_server:start_link() at pid <0.92.0>
+2016-03-05 23:59:58.154 [debug] <0.90.0> Supervisor folsom_sup started folsom_metrics_histogram_ets:start_link() at pid <0.93.0>
+2016-03-05 23:59:58.154 [info] <0.7.0> Application folsom started on node nonode@nohost
+2016-03-05 23:59:58.250 [info] <0.86.0>@basho_bench_stats_writer_csv:new:43 module=basho_bench_stats_writer_csv event=start stats_sink=csv
+2016-03-05 23:59:58.251 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_stats:start_link() at pid <0.86.0>
+2016-03-05 23:59:58.278 [info] <0.97.0>@basho_bench_valgen:init_source:88 Random source: calling crypto:rand_bytes(100663296) (override with the 'value_generator_source_size' config option

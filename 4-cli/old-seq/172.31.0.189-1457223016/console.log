@@ -1,0 +1,2 @@
+2016-03-06 00:03:45.328 [info] <0.86.0>@basho_bench_stats:report_total_errors:291 No Errors.
+2016-03-06 00:03:45.328 [info] <0.86.0>@basho_bench_stats_writer_csv:terminate:62 module=basho_bench_stats_writer_csv event=stop stats_sink=csv

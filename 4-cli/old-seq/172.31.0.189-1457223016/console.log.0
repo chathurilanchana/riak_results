@@ -1,0 +1,127 @@
+2016-03-05 23:53:35.003 [debug] <0.56.0>@lager_handler_watcher:94 Lager installed handler {lager_file_backend,
+                            "/root/Basho-Sequencer/basho_bench/tests/20160305_235334/console.log"} into lager_event
+2016-03-05 23:53:35.003 [debug] <0.54.0>@lager_handler_watcher:94 Lager installed handler {lager_file_backend,
+                            "/root/Basho-Sequencer/basho_bench/tests/20160305_235334/error.log"} into lager_event
+2016-03-05 23:53:35.004 [debug] <0.58.0>@lager_handler_watcher:94 Lager installed handler error_logger_lager_h into error_logger
+2016-03-05 23:53:35.138 [debug] <0.41.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.60.0>
+2016-03-05 23:53:35.138 [debug] <0.40.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.61.0>
+2016-03-05 23:53:35.138 [debug] <0.42.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.62.0>
+2016-03-05 23:53:35.139 [debug] <0.42.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0}]) at pid <0.63.0>
+2016-03-05 23:53:35.422 [debug] <0.50.0>@lager_handler_watcher:94 Lager installed handler lager_backend_throttle into lager_event
+2016-03-05 23:53:37.163 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-03-05 23:53:37.166 [notice] <0.47.0>@lager_file_backend:127 Changed loglevel of /root/Basho-Sequencer/basho_bench/tests/20160305_235334/console.log to debug
+2016-03-05 23:53:37.190 [info] <0.2.0>@basho_bench_keygen:dimension:213 No dimension available for key generator: {int_to_bin_bigendian,{uniform_int,35000}}
+2016-03-05 23:53:37.399 [debug] <0.72.0> Supervisor sasl_safe_sup started alarm_handler:start_link() at pid <0.73.0>
+2016-03-05 23:53:37.400 [debug] <0.72.0> Supervisor sasl_safe_sup started overload:start_link() at pid <0.74.0>
+2016-03-05 23:53:37.401 [debug] <0.71.0> Supervisor sasl_sup started supervisor:start_link({local,sasl_safe_sup}, sasl, safe) at pid <0.72.0>
+2016-03-05 23:53:37.436 [debug] <0.71.0> Supervisor sasl_sup started release_handler:start_link() at pid <0.75.0>
+2016-03-05 23:53:37.436 [info] <0.7.0> Application sasl started on node nonode@nohost
+2016-03-05 23:53:37.639 [debug] <0.80.0> Supervisor crypto_sup started crypto_server:start_link() at pid <0.81.0>
+2016-03-05 23:53:37.639 [info] <0.7.0> Application crypto started on node nonode@nohost
+2016-03-05 23:53:37.774 [debug] <0.90.0> Supervisor folsom_sup started folsom_sample_slide_sup:start_link() at pid <0.91.0>
+2016-03-05 23:53:37.785 [debug] <0.90.0> Supervisor folsom_sup started folsom_meter_timer_server:start_link() at pid <0.92.0>
+2016-03-05 23:53:37.797 [debug] <0.90.0> Supervisor folsom_sup started folsom_metrics_histogram_ets:start_link() at pid <0.93.0>
+2016-03-05 23:53:37.797 [info] <0.7.0> Application folsom started on node nonode@nohost
+2016-03-05 23:53:37.888 [info] <0.86.0>@basho_bench_stats_writer_csv:new:43 module=basho_bench_stats_writer_csv event=start stats_sink=csv
+2016-03-05 23:53:37.890 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_stats:start_link() at pid <0.86.0>
+2016-03-05 23:53:37.921 [info] <0.97.0>@basho_bench_valgen:init_source:88 Random source: calling crypto:rand_bytes(100663296) (override with the 'value_generator_source_size' config option
+2016-03-05 23:53:41.384 [info] <0.97.0>@basho_bench_valgen:init_source:95 Random source: finished crypto:rand_bytes(100663296)
+2016-03-05 23:53:41.515 [debug] <0.100.0> Supervisor net_sup started erl_epmd:start_link() at pid <0.101.0>
+2016-03-05 23:53:41.541 [debug] <0.100.0> Supervisor net_sup started auth:start_link() at pid <0.102.0>
+2016-03-05 23:53:41.575 [info] <0.99.0>@basho_bench_driver_riakclient:new:56 Net kernel started as 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:41.576 [debug] <0.100.0> Supervisor net_sup started net_kernel:start_link(['basho_bench1@172.31.0.189',longnames]) at pid <0.103.0>
+2016-03-05 23:53:41.576 [debug] <0.11.0> Supervisor kernel_sup started erl_distribution:start_link(['basho_bench1@172.31.0.189',longnames]) at pid <0.100.0>
+2016-03-05 23:53:41.594 [debug] <0.107.0> Supervisor inet_gethost_native_sup started undefined at pid <0.108.0>
+2016-03-05 23:53:41.595 [debug] <0.26.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.107.0>
+2016-03-05 23:53:41.684 [info] <0.99.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.174' for worker 1
+2016-03-05 23:53:42.211 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_1, 1) at pid <0.97.0>
+2016-03-05 23:53:42.485 [info] <0.147.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.199' for worker 2
+2016-03-05 23:53:42.493 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_2, 2) at pid <0.146.0>
+2016-03-05 23:53:42.722 [info] <0.149.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.179' for worker 3
+2016-03-05 23:53:42.725 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_3, 3) at pid <0.148.0>
+2016-03-05 23:53:43.047 [info] <0.151.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.180' for worker 4
+2016-03-05 23:53:43.519 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_4, 4) at pid <0.150.0>
+2016-03-05 23:53:43.744 [info] <0.153.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.182' for worker 5
+2016-03-05 23:53:43.747 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_5, 5) at pid <0.152.0>
+2016-03-05 23:53:43.779 [info] <0.155.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.117' for worker 6
+2016-03-05 23:53:43.787 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_6, 6) at pid <0.154.0>
+2016-03-05 23:53:43.796 [info] <0.157.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.174' for worker 7
+2016-03-05 23:53:43.799 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_7, 7) at pid <0.156.0>
+2016-03-05 23:53:43.807 [info] <0.159.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.199' for worker 8
+2016-03-05 23:53:43.811 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_8, 8) at pid <0.158.0>
+2016-03-05 23:53:43.819 [info] <0.166.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.179' for worker 9
+2016-03-05 23:53:43.821 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_9, 9) at pid <0.165.0>
+2016-03-05 23:53:43.831 [info] <0.168.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.180' for worker 10
+2016-03-05 23:53:43.834 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_10, 10) at pid <0.167.0>
+2016-03-05 23:53:43.876 [info] <0.170.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.182' for worker 11
+2016-03-05 23:53:43.879 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_11, 11) at pid <0.169.0>
+2016-03-05 23:53:43.897 [info] <0.172.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.117' for worker 12
+2016-03-05 23:53:43.901 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_12, 12) at pid <0.171.0>
+2016-03-05 23:53:43.917 [info] <0.174.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.174' for worker 13
+2016-03-05 23:53:43.920 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_13, 13) at pid <0.173.0>
+2016-03-05 23:53:43.942 [info] <0.176.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.199' for worker 14
+2016-03-05 23:53:43.950 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_14, 14) at pid <0.175.0>
+2016-03-05 23:53:43.965 [info] <0.178.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.179' for worker 15
+2016-03-05 23:53:43.970 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_15, 15) at pid <0.177.0>
+2016-03-05 23:53:43.977 [info] <0.180.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.180' for worker 16
+2016-03-05 23:53:43.989 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_16, 16) at pid <0.179.0>
+2016-03-05 23:53:44.001 [info] <0.182.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.182' for worker 17
+2016-03-05 23:53:44.004 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_17, 17) at pid <0.181.0>
+2016-03-05 23:53:44.029 [info] <0.184.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.117' for worker 18
+2016-03-05 23:53:44.032 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_18, 18) at pid <0.183.0>
+2016-03-05 23:53:44.045 [info] <0.186.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.174' for worker 19
+2016-03-05 23:53:44.048 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_19, 19) at pid <0.185.0>
+2016-03-05 23:53:44.076 [info] <0.188.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.199' for worker 20
+2016-03-05 23:53:44.079 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_20, 20) at pid <0.187.0>
+2016-03-05 23:53:44.091 [info] <0.190.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.179' for worker 21
+2016-03-05 23:53:44.094 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_21, 21) at pid <0.189.0>
+2016-03-05 23:53:44.113 [info] <0.192.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.180' for worker 22
+2016-03-05 23:53:44.117 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_22, 22) at pid <0.191.0>
+2016-03-05 23:53:44.132 [info] <0.194.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.182' for worker 23
+2016-03-05 23:53:44.143 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_23, 23) at pid <0.193.0>
+2016-03-05 23:53:44.157 [info] <0.196.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.117' for worker 24
+2016-03-05 23:53:44.160 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_24, 24) at pid <0.195.0>
+2016-03-05 23:53:44.176 [info] <0.198.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.174' for worker 25
+2016-03-05 23:53:44.180 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_25, 25) at pid <0.197.0>
+2016-03-05 23:53:44.193 [info] <0.200.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.199' for worker 26
+2016-03-05 23:53:44.197 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_26, 26) at pid <0.199.0>
+2016-03-05 23:53:44.208 [info] <0.202.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.179' for worker 27
+2016-03-05 23:53:44.218 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_27, 27) at pid <0.201.0>
+2016-03-05 23:53:44.233 [info] <0.204.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.180' for worker 28
+2016-03-05 23:53:44.238 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_28, 28) at pid <0.203.0>
+2016-03-05 23:53:44.256 [info] <0.206.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.182' for worker 29
+2016-03-05 23:53:44.260 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_29, 29) at pid <0.205.0>
+2016-03-05 23:53:44.279 [info] <0.208.0>@basho_bench_driver_riakclient:new:71 Using target node 'riak@172.31.0.117' for worker 30
+2016-03-05 23:53:44.282 [debug] <0.85.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_30, 30) at pid <0.207.0>
+2016-03-05 23:53:44.283 [debug] <0.26.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.209.0>
+2016-03-05 23:53:44.299 [info] <0.208.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.208.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.299 [info] <0.204.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.204.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.299 [info] <0.206.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.206.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.299 [info] <0.202.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.202.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.299 [info] <0.200.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.200.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.300 [info] <0.198.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.198.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.300 [info] <0.196.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.196.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.300 [info] <0.194.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.194.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.300 [info] <0.192.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.192.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.300 [info] <0.190.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.190.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.301 [info] <0.188.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.188.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.301 [info] <0.184.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.184.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.301 [info] <0.186.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.186.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.301 [info] <0.182.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.182.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.301 [info] <0.180.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.180.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.301 [info] <0.178.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.178.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.302 [info] <0.176.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.176.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.302 [info] <0.174.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.174.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.302 [info] <0.172.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.172.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.302 [info] <0.170.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.170.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.303 [info] <0.168.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.168.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.303 [info] <0.166.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.166.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.303 [info] <0.159.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.159.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.304 [info] <0.157.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.157.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.304 [info] <0.155.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.155.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.304 [info] <0.153.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.153.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.305 [info] <0.151.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.151.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.306 [info] <0.149.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.149.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.307 [info] <0.147.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.147.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.307 [info] <0.99.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.99.0> on 'basho_bench1@172.31.0.189'
+2016-03-05 23:53:44.309 [info] <0.7.0> Application basho_bench started on node 'basho_bench1@172.31.0.189'
