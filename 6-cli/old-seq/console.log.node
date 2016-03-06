@@ -1,0 +1,204 @@
+2016-03-06 01:10:29.600 [info] <0.7.0> Application lager started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.639 [info] <0.7.0> Application sasl started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.639 [info] <0.7.0> Application asn1 started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.645 [info] <0.7.0> Application crypto started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.645 [info] <0.7.0> Application public_key started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.665 [info] <0.7.0> Application ssl started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.679 [info] <0.7.0> Application riak_sysmon started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.707 [info] <0.7.0> Application os_mon started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.740 [info] <0.7.0> Application runtime_tools started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.765 [info] <0.7.0> Application erlang_js started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.765 [info] <0.7.0> Application xmerl started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.822 [info] <0.7.0> Application inets started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.823 [info] <0.7.0> Application mochiweb started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.845 [info] <0.7.0> Application webmachine started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.845 [info] <0.7.0> Application basho_stats started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.856 [info] <0.7.0> Application bitcask started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.897 [info] <0.7.0> Application clique started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.897 [info] <0.7.0> Application eleveldb started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.900 [info] <0.7.0> Application pbkdf2 started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.900 [info] <0.7.0> Application poolboy started on node 'riak@172.31.0.117'
+2016-03-06 01:10:29.990 [info] <0.155.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2016-03-06 01:10:29.990 [info] <0.7.0> Application exometer_core started on node 'riak@172.31.0.117'
+2016-03-06 01:10:30.186 [warning] <0.177.0>@riak_core_ring_manager:reload_ring:359 No ring file available.
+2016-03-06 01:10:30.660 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2016-03-06 01:10:30.690 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2016-03-06 01:10:30.716 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2016-03-06 01:10:30.741 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2016-03-06 01:10:30.766 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2016-03-06 01:10:30.791 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2016-03-06 01:10:30.816 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2016-03-06 01:10:31.038 [info] <0.7.0> Application riak_core started on node 'riak@172.31.0.117'
+2016-03-06 01:10:31.053 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_pipe,trace_format} = ordsets
+2016-03-06 01:10:31.143 [info] <0.7.0> Application riak_pipe started on node 'riak@172.31.0.117'
+2016-03-06 01:10:31.154 [info] <0.7.0> Application sidejob started on node 'riak@172.31.0.117'
+2016-03-06 01:10:31.154 [info] <0.7.0> Application riak_dt started on node 'riak@172.31.0.117'
+2016-03-06 01:10:31.154 [info] <0.7.0> Application protobuffs started on node 'riak@172.31.0.117'
+2016-03-06 01:10:31.154 [info] <0.7.0> Application riak_pb started on node 'riak@172.31.0.117'
+2016-03-06 01:10:31.258 [info] <0.7.0> Application riak_api started on node 'riak@172.31.0.117'
+2016-03-06 01:10:31.375 [info] <0.325.0>@riak_kv_env:doc_env:46 Environment and OS variables:
+2016-03-06 01:10:31.557 [info] <0.325.0> riak_kv_env: Open file limit: 65536
+2016-03-06 01:10:31.557 [warning] <0.325.0> riak_kv_env: Cores are disabled, this may hinder debugging
+2016-03-06 01:10:31.557 [info] <0.325.0> riak_kv_env: Erlang process limit: 262144
+2016-03-06 01:10:31.557 [info] <0.325.0> riak_kv_env: Erlang ports limit: 65536
+2016-03-06 01:10:31.557 [info] <0.325.0> riak_kv_env: ETS table count limit: 256000
+2016-03-06 01:10:31.557 [info] <0.325.0> riak_kv_env: Thread pool size: 64
+2016-03-06 01:10:31.557 [info] <0.325.0> riak_kv_env: Generations before full sweep: 0
+2016-03-06 01:10:31.557 [info] <0.325.0> riak_kv_env: Schedulers: 2 for 2 cores
+2016-03-06 01:10:31.557 [warning] <0.325.0> riak_kv_env: sysctl vm.swappiness is 60, should be no more than 0)
+2016-03-06 01:10:31.557 [warning] <0.325.0> riak_kv_env: sysctl net.core.wmem_default is 229376, should be at least 8388608)
+2016-03-06 01:10:31.557 [warning] <0.325.0> riak_kv_env: sysctl net.core.rmem_default is 229376, should be at least 8388608)
+2016-03-06 01:10:31.592 [info] <0.363.0>@riak_core:wait_for_service:504 Waiting for service riak_kv to start (0 seconds)
+2016-03-06 01:10:31.639 [info] <0.380.0>@riak_kv_entropy_manager:set_aae_throttle_limits:790 Setting AAE throttle limits: [{-1,0},{200,10},{500,50},{750,250},{900,1000},{1100,5000}]
+2016-03-06 01:10:31.724 [info] <0.389.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.389.0>)
+2016-03-06 01:10:31.728 [info] <0.390.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.390.0>)
+2016-03-06 01:10:31.737 [info] <0.391.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.391.0>)
+2016-03-06 01:10:31.741 [info] <0.392.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.392.0>)
+2016-03-06 01:10:31.745 [info] <0.393.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.393.0>)
+2016-03-06 01:10:31.749 [info] <0.394.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.394.0>)
+2016-03-06 01:10:31.753 [info] <0.395.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.395.0>)
+2016-03-06 01:10:31.758 [info] <0.396.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.396.0>)
+2016-03-06 01:10:31.763 [info] <0.398.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.398.0>)
+2016-03-06 01:10:31.767 [info] <0.399.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.399.0>)
+2016-03-06 01:10:31.771 [info] <0.400.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.400.0>)
+2016-03-06 01:10:31.775 [info] <0.401.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.401.0>)
+2016-03-06 01:10:31.779 [info] <0.402.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.402.0>)
+2016-03-06 01:10:31.782 [info] <0.403.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.403.0>)
+2016-03-06 01:10:31.786 [info] <0.405.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_hook) host starting (<0.405.0>)
+2016-03-06 01:10:31.790 [info] <0.406.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_hook) host starting (<0.406.0>)
+2016-03-06 01:10:31.799 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,vnode_vclocks} = true
+2016-03-06 01:10:31.828 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,legacy_keylisting} = false
+2016-03-06 01:10:31.861 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,listkeys_backpressure} = true
+2016-03-06 01:10:31.886 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,index_backpressure} = true
+2016-03-06 01:10:31.925 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,mapred_system} = pipe
+2016-03-06 01:10:31.961 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,mapred_2i_pipe} = true
+2016-03-06 01:10:31.995 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,anti_entropy} = enabled_v1
+2016-03-06 01:10:32.028 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,handoff_data_encoding} = encode_raw
+2016-03-06 01:10:32.053 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,object_format} = v1
+2016-03-06 01:10:32.086 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,secondary_index_version} = v3
+2016-03-06 01:10:32.112 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,vclock_data_encoding} = encode_zlib
+2016-03-06 01:10:32.154 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,crdt} = [pncounter,riak_dt_pncounter,riak_dt_orswot,riak_dt_map]
+2016-03-06 01:10:32.179 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,crdt_epoch_versions} = [{riak_dt_map,2},{riak_dt_orswot,2},{riak_dt_pncounter,2}]
+2016-03-06 01:10:32.204 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,put_fsm_ack_execute} = enabled
+2016-03-06 01:10:32.230 [warning] <0.6.0> lager_error_logger_h dropped 10 messages in the last second that exceeded the limit of 100 messages/sec
+2016-03-06 01:10:32.305 [info] <0.7.0> Application riak_kv started on node 'riak@172.31.0.117'
+2016-03-06 01:10:32.325 [info] <0.7.0> Application merge_index started on node 'riak@172.31.0.117'
+2016-03-06 01:10:32.330 [info] <0.7.0> Application riak_search started on node 'riak@172.31.0.117'
+2016-03-06 01:10:32.346 [info] <0.7.0> Application ibrowse started on node 'riak@172.31.0.117'
+2016-03-06 01:10:32.356 [info] <0.7.0> Application yokozuna started on node 'riak@172.31.0.117'
+2016-03-06 01:10:32.362 [info] <0.7.0> Application cluster_info started on node 'riak@172.31.0.117'
+2016-03-06 01:10:32.372 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_control,member_info_version} = v1
+2016-03-06 01:10:32.397 [info] <0.7.0> Application riak_control started on node 'riak@172.31.0.117'
+2016-03-06 01:10:32.397 [info] <0.7.0> Application erlydtl started on node 'riak@172.31.0.117'
+2016-03-06 01:10:32.437 [info] <0.7.0> Application riak_auth_mods started on node 'riak@172.31.0.117'
+2016-03-06 01:10:45.667 [info] <0.363.0>@riak_core:wait_for_service:498 Wait complete for service riak_kv (12 seconds)
+2016-03-06 01:10:46.642 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from undefined -> 0 msec/key, based on maximum vnode mailbox size 1 from 'riak@172.31.0.117'
+2016-03-06 01:10:51.863 [error] <0.1373.0>@riak_core_vnode:vnode_command:349 riak_kv_vnode command failed {noproc,{gen_server,call,[{global,sequencer_ordering_service},{sequence}]}}
+2016-03-06 01:10:51.863 [error] <0.1373.0> gen_fsm <0.1373.0> in state active terminated with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence})
+2016-03-06 01:10:51.863 [error] <0.1373.0> CRASH REPORT Process <0.1373.0> with 2 neighbours exited with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in gen_fsm:terminate/7 line 622
+2016-03-06 01:10:51.864 [error] <0.1961.0> gen_fsm <0.1961.0> in state waiting_local_vnode terminated with reason: no case clause matching {vnode_error,{noproc,{gen_server,call,[{global,sequencer_ordering_service},{sequence}]}}} in riak_kv_put_fsm:waiting_local_vnode/2 line 567
+2016-03-06 01:10:51.864 [error] <0.1961.0> CRASH REPORT Process <0.1961.0> with 0 neighbours exited with reason: no case clause matching {vnode_error,{noproc,{gen_server,call,[{global,sequencer_ordering_service},{sequence}]}}} in riak_kv_put_fsm:waiting_local_vnode/2 line 567 in gen_fsm:terminate/7 line 622
+2016-03-06 01:10:51.865 [error] <0.166.0> Supervisor riak_core_vnode_sup had child undefined started with {riak_core_vnode,start_link,undefined} at <0.1373.0> exit with reason no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in context child_terminated
+2016-03-06 01:10:51.865 [error] <0.1538.0> gen_fsm <0.1538.0> in state ready terminated with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence})
+2016-03-06 01:10:51.865 [error] <0.1538.0> CRASH REPORT Process <0.1538.0> with 10 neighbours exited with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in gen_fsm:terminate/7 line 622
+2016-03-06 01:10:51.866 [error] <0.1543.0> Supervisor {<0.1543.0>,poolboy_sup} had child riak_core_vnode_worker started with riak_core_vnode_worker:start_link([{worker_module,riak_core_vnode_worker},{worker_args,[1118962191081472546749696200048404186924073353216,...]},...]) at undefined exit with reason no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in context shutdown_error
+2016-03-06 01:10:51.866 [error] <0.1543.0> gen_server <0.1543.0> terminated with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence})
+2016-03-06 01:10:51.866 [error] <0.1543.0> CRASH REPORT Process <0.1543.0> with 0 neighbours exited with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in gen_server:terminate/6 line 744
+2016-03-06 01:11:53.859 [info] <0.177.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.174' joined cluster with status 'joining'
+2016-03-06 01:11:53.894 [info] <0.177.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.182' joined cluster with status 'joining'
+2016-03-06 01:11:54.027 [info] <0.177.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.179' joined cluster with status 'joining'
+2016-03-06 01:11:54.346 [info] <0.177.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.180' joined cluster with status 'joining'
+2016-03-06 01:11:55.950 [info] <0.177.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.199' joined cluster with status 'joining'
+2016-03-06 01:13:17.709 [info] <0.3064.0>@riak_kv_sequencer:init:47 sequencer started
+2016-03-06 01:13:27.710 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:13:27 is 0 
+2016-03-06 01:13:37.716 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:13:37 is 0 
+2016-03-06 01:13:47.718 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:13:47 is 0 
+2016-03-06 01:13:57.720 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:13:57 is 21743 
+2016-03-06 01:14:07.721 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:14:7 is 74030 
+2016-03-06 01:14:17.722 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:14:17 is 125915 
+2016-03-06 01:14:27.723 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:14:27 is 163585 
+2016-03-06 01:14:37.724 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:14:37 is 206611 
+2016-03-06 01:14:47.725 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:14:47 is 256711 
+2016-03-06 01:14:57.726 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:14:57 is 302441 
+2016-03-06 01:15:07.727 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:15:7 is 341242 
+2016-03-06 01:15:17.729 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:15:17 is 391249 
+2016-03-06 01:15:27.730 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:15:27 is 436351 
+2016-03-06 01:15:31.781 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 0 -> 10 msec/key, based on maximum vnode mailbox size 215 from 'riak@172.31.0.180'
+2016-03-06 01:15:37.731 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:15:37 is 472791 
+2016-03-06 01:15:46.854 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 10 -> 0 msec/key, based on maximum vnode mailbox size 85 from 'riak@172.31.0.174'
+2016-03-06 01:15:47.732 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:15:47 is 521433 
+2016-03-06 01:15:57.733 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:15:57 is 569840 
+2016-03-06 01:16:01.794 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 0 -> 10 msec/key, based on maximum vnode mailbox size 261 from 'riak@172.31.0.179'
+2016-03-06 01:16:07.734 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:16:7 is 603232 
+2016-03-06 01:16:16.803 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 10 -> 0 msec/key, based on maximum vnode mailbox size 70 from 'riak@172.31.0.174'
+2016-03-06 01:16:17.735 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:16:17 is 649867 
+2016-03-06 01:16:27.736 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:16:27 is 698806 
+2016-03-06 01:16:31.822 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 0 -> 10 msec/key, based on maximum vnode mailbox size 208 from 'riak@172.31.0.117'
+2016-03-06 01:16:37.737 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:16:37 is 736042 
+2016-03-06 01:16:46.821 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 10 -> 0 msec/key, based on maximum vnode mailbox size 85 from 'riak@172.31.0.179'
+2016-03-06 01:16:47.738 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:16:47 is 777553 
+2016-03-06 01:16:57.740 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:16:57 is 826382 
+2016-03-06 01:17:03.923 [info] <0.16394.13>@riak_kv_exchange_fsm:key_exchange:263 Repaired 5 keys during active anti-entropy exchange of {137015778499772148581595453067151533092743675904,3} between {137015778499772148581595453067151533092743675904,'riak@172.31.0.117'} and {182687704666362864775460604089535377456991567872,'riak@172.31.0.179'}
+2016-03-06 01:17:07.741 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:17:7 is 868460 
+2016-03-06 01:17:17.742 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:17:17 is 906734 
+2016-03-06 01:17:27.743 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:17:27 is 955227 
+2016-03-06 01:17:37.745 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:17:37 is 997515 
+2016-03-06 01:17:46.837 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 0 -> 10 msec/key, based on maximum vnode mailbox size 304 from 'riak@172.31.0.174'
+2016-03-06 01:17:47.746 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:17:47 is 1034015 
+2016-03-06 01:17:57.747 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:17:57 is 1081229 
+2016-03-06 01:18:01.842 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 10 -> 0 msec/key, based on maximum vnode mailbox size 110 from 'riak@172.31.0.179'
+2016-03-06 01:18:07.748 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:18:7 is 1126423 
+2016-03-06 01:18:17.750 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:18:17 is 1163498 
+2016-03-06 01:18:27.751 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:18:27 is 1207029 
+2016-03-06 01:18:37.752 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:18:37 is 1251817 
+2016-03-06 01:18:46.818 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 0 -> 10 msec/key, based on maximum vnode mailbox size 288 from 'riak@172.31.0.180'
+2016-03-06 01:18:47.753 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:18:47 is 1291018 
+2016-03-06 01:18:57.755 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:18:57 is 1331002 
+2016-03-06 01:19:01.853 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 10 -> 0 msec/key, based on maximum vnode mailbox size 85 from 'riak@172.31.0.174'
+2016-03-06 01:19:07.756 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:19:7 is 1378408 
+2016-03-06 01:19:17.765 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:19:17 is 1419252 
+2016-03-06 01:19:27.773 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:19:27 is 1455118 
+2016-03-06 01:19:37.774 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:19:37 is 1501116 
+2016-03-06 01:19:46.826 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 0 -> 10 msec/key, based on maximum vnode mailbox size 286 from 'riak@172.31.0.179'
+2016-03-06 01:19:47.777 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:19:47 is 1544367 
+2016-03-06 01:19:57.778 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:19:57 is 1585311 
+2016-03-06 01:20:07.779 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:20:7 is 1623947 
+2016-03-06 01:20:16.867 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 10 -> 0 msec/key, based on maximum vnode mailbox size 113 from 'riak@172.31.0.174'
+2016-03-06 01:20:17.780 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:20:17 is 1667628 
+2016-03-06 01:20:27.782 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:20:27 is 1706508 
+2016-03-06 01:20:37.783 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:20:37 is 1742991 
+2016-03-06 01:20:47.784 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:20:47 is 1788764 
+2016-03-06 01:20:57.785 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:20:57 is 1831534 
+2016-03-06 01:21:02.067 [info] <0.26170.28>@riak_kv_exchange_fsm:key_exchange:263 Repaired 1 keys during active anti-entropy exchange of {251195593916248939066258330623111144003363405824,3} between {274031556999544297163190906134303066185487351808,'riak@172.31.0.117'} and {296867520082839655260123481645494988367611297792,'riak@172.31.0.174'}
+2016-03-06 01:21:07.786 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:21:7 is 1868613 
+2016-03-06 01:21:17.199 [info] <0.23115.29>@riak_kv_exchange_fsm:key_exchange:263 Repaired 1 keys during active anti-entropy exchange of {274031556999544297163190906134303066185487351808,3} between {274031556999544297163190906134303066185487351808,'riak@172.31.0.117'} and {296867520082839655260123481645494988367611297792,'riak@172.31.0.174'}
+2016-03-06 01:21:17.787 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:21:17 is 1913323 
+2016-03-06 01:21:27.788 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:21:27 is 1955700 
+2016-03-06 01:21:37.789 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:21:37 is 1993160 
+2016-03-06 01:21:47.790 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:21:47 is 2034802 
+2016-03-06 01:21:57.791 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:21:57 is 2078718 
+2016-03-06 01:22:02.117 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 0 -> 10 msec/key, based on maximum vnode mailbox size 282 from 'riak@172.31.0.180'
+2016-03-06 01:22:07.792 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:22:7 is 2121554 
+2016-03-06 01:22:16.915 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 10 -> 0 msec/key, based on maximum vnode mailbox size 77 from 'riak@172.31.0.174'
+2016-03-06 01:22:17.793 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:22:17 is 2154805 
+2016-03-06 01:22:27.795 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:22:27 is 2200336 
+2016-03-06 01:22:37.797 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:22:37 is 2243125 
+2016-03-06 01:22:46.888 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 0 -> 10 msec/key, based on maximum vnode mailbox size 212 from 'riak@172.31.0.182'
+2016-03-06 01:22:47.798 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:22:47 is 2276740 
+2016-03-06 01:22:57.800 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:22:57 is 2321837 
+2016-03-06 01:23:01.898 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 10 -> 0 msec/key, based on maximum vnode mailbox size 106 from 'riak@172.31.0.179'
+2016-03-06 01:23:07.801 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:23:7 is 2359429 
+2016-03-06 01:23:17.802 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:23:17 is 2399870 
+2016-03-06 01:23:27.804 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:23:27 is 2442859 
+2016-03-06 01:23:37.805 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:23:37 is 2479428 
+2016-03-06 01:23:47.806 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:23:47 is 2521078 
+2016-03-06 01:23:57.807 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:23:57 is 2551943 
+2016-03-06 01:24:07.808 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:24:7 is 2572229 
+2016-03-06 01:24:17.809 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:24:17 is 2572229 
+2016-03-06 01:24:27.810 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:24:27 is 2572229 
+2016-03-06 01:24:37.811 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:24:37 is 2572229 
+2016-03-06 01:24:47.812 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:24:47 is 2572229 
+2016-03-06 01:24:57.813 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:24:57 is 2572229 
+2016-03-06 01:25:07.814 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:25:7 is 2572229 
+2016-03-06 01:25:17.815 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:25:17 is 2572229 
+2016-03-06 01:25:27.816 [info] <0.3064.0>@riak_kv_sequencer:handle_info:66 sum request count at 1:25:27 is 2572229 
