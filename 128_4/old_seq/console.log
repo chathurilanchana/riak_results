@@ -1,0 +1,314 @@
+2016-03-07 17:02:06.663 [info] <0.7.0> Application lager started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.683 [info] <0.7.0> Application sasl started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.683 [info] <0.7.0> Application asn1 started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.689 [info] <0.7.0> Application crypto started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.689 [info] <0.7.0> Application public_key started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.701 [info] <0.7.0> Application ssl started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.708 [info] <0.7.0> Application riak_sysmon started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.727 [info] <0.7.0> Application os_mon started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.741 [info] <0.7.0> Application runtime_tools started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.772 [info] <0.7.0> Application erlang_js started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.772 [info] <0.7.0> Application xmerl started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.836 [info] <0.7.0> Application inets started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.836 [info] <0.7.0> Application mochiweb started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.864 [info] <0.7.0> Application webmachine started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.864 [info] <0.7.0> Application basho_stats started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.875 [info] <0.7.0> Application bitcask started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.915 [info] <0.7.0> Application clique started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.915 [info] <0.7.0> Application eleveldb started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.915 [info] <0.7.0> Application pbkdf2 started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.915 [info] <0.7.0> Application poolboy started on node 'riak@172.31.0.174'
+2016-03-07 17:02:06.993 [info] <0.155.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2016-03-07 17:02:06.993 [info] <0.7.0> Application exometer_core started on node 'riak@172.31.0.174'
+2016-03-07 17:02:07.216 [warning] <0.175.0>@riak_core_ring_manager:reload_ring:359 No ring file available.
+2016-03-07 17:02:07.693 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2016-03-07 17:02:07.724 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2016-03-07 17:02:07.749 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2016-03-07 17:02:07.774 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2016-03-07 17:02:07.800 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2016-03-07 17:02:07.834 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2016-03-07 17:02:07.859 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2016-03-07 17:02:08.058 [info] <0.7.0> Application riak_core started on node 'riak@172.31.0.174'
+2016-03-07 17:02:08.069 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_pipe,trace_format} = ordsets
+2016-03-07 17:02:08.397 [info] <0.389.0>@riak_kv_env:doc_env:46 Environment and OS variables:
+2016-03-07 17:02:08.603 [info] <0.427.0>@riak_core:wait_for_service:504 Waiting for service riak_kv to start (0 seconds)
+2016-03-07 17:02:08.648 [info] <0.444.0>@riak_kv_entropy_manager:set_aae_throttle_limits:790 Setting AAE throttle limits: [{-1,0},{200,10},{500,50},{750,250},{900,1000},{1100,5000}]
+2016-03-07 17:02:08.735 [info] <0.453.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.453.0>)
+2016-03-07 17:02:08.739 [info] <0.454.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.454.0>)
+2016-03-07 17:02:08.742 [info] <0.455.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.455.0>)
+2016-03-07 17:02:08.745 [info] <0.456.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.456.0>)
+2016-03-07 17:02:08.748 [info] <0.457.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.457.0>)
+2016-03-07 17:02:08.751 [info] <0.458.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.458.0>)
+2016-03-07 17:02:08.755 [info] <0.459.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.459.0>)
+2016-03-07 17:02:08.758 [info] <0.460.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.460.0>)
+2016-03-07 17:02:08.761 [info] <0.462.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.462.0>)
+2016-03-07 17:02:08.764 [info] <0.463.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.463.0>)
+2016-03-07 17:02:08.767 [info] <0.464.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.464.0>)
+2016-03-07 17:02:08.770 [info] <0.465.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.465.0>)
+2016-03-07 17:02:08.773 [info] <0.466.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.466.0>)
+2016-03-07 17:02:08.776 [info] <0.467.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.467.0>)
+2016-03-07 17:02:08.779 [info] <0.469.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_hook) host starting (<0.469.0>)
+2016-03-07 17:02:08.782 [info] <0.470.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_hook) host starting (<0.470.0>)
+2016-03-07 17:02:08.787 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,vnode_vclocks} = true
+2016-03-07 17:02:08.846 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,legacy_keylisting} = false
+2016-03-07 17:02:08.889 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,listkeys_backpressure} = true
+2016-03-07 17:02:08.923 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,index_backpressure} = true
+2016-03-07 17:02:08.956 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,mapred_system} = pipe
+2016-03-07 17:02:08.982 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,mapred_2i_pipe} = true
+2016-03-07 17:02:09.008 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,anti_entropy} = enabled_v1
+2016-03-07 17:02:09.033 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,handoff_data_encoding} = encode_raw
+2016-03-07 17:02:09.058 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,object_format} = v1
+2016-03-07 17:02:09.083 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,secondary_index_version} = v3
+2016-03-07 17:02:09.109 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,vclock_data_encoding} = encode_zlib
+2016-03-07 17:02:09.134 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,crdt} = [pncounter,riak_dt_pncounter,riak_dt_orswot,riak_dt_map]
+2016-03-07 17:02:09.166 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,crdt_epoch_versions} = [{riak_dt_map,2},{riak_dt_orswot,2},{riak_dt_pncounter,2}]
+2016-03-07 17:02:09.191 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,put_fsm_ack_execute} = enabled
+2016-03-07 17:02:09.217 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 100 messages/sec
+2016-03-07 17:02:09.389 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_control,member_info_version} = v1
+2016-03-07 17:02:27.564 [info] <0.444.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from undefined -> 0 msec/key, based on maximum vnode mailbox size 0 from 'riak@172.31.0.174'
+2016-03-07 17:02:27.580 [info] <0.427.0>@riak_core:wait_for_service:498 Wait complete for service riak_kv (15 seconds)
+2016-03-07 17:02:28.625 [error] <0.2323.0>@riak_core_vnode:vnode_command:349 riak_kv_vnode command failed {noproc,{gen_server,call,[{global,sequencer_ordering_service},{sequence}]}}
+2016-03-07 17:02:28.625 [error] <0.2323.0> gen_fsm <0.2323.0> in state active terminated with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence})
+2016-03-07 17:02:28.626 [error] <0.2323.0> CRASH REPORT Process <0.2323.0> with 2 neighbours exited with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in gen_fsm:terminate/7 line 622
+2016-03-07 17:02:28.626 [error] <0.164.0> Supervisor riak_core_vnode_sup had child undefined started with {riak_core_vnode,start_link,undefined} at <0.2323.0> exit with reason no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in context child_terminated
+2016-03-07 17:02:28.626 [error] <0.2488.0> gen_fsm <0.2488.0> in state ready terminated with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence})
+2016-03-07 17:02:28.626 [error] <0.3429.0> gen_fsm <0.3429.0> in state waiting_local_vnode terminated with reason: no case clause matching {vnode_error,{noproc,{gen_server,call,[{global,sequencer_ordering_service},{sequence}]}}} in riak_kv_put_fsm:waiting_local_vnode/2 line 567
+2016-03-07 17:02:28.627 [error] <0.3429.0> CRASH REPORT Process <0.3429.0> with 0 neighbours exited with reason: no case clause matching {vnode_error,{noproc,{gen_server,call,[{global,sequencer_ordering_service},{sequence}]}}} in riak_kv_put_fsm:waiting_local_vnode/2 line 567 in gen_fsm:terminate/7 line 622
+2016-03-07 17:02:28.627 [error] <0.2488.0> CRASH REPORT Process <0.2488.0> with 10 neighbours exited with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in gen_fsm:terminate/7 line 622
+2016-03-07 17:02:28.627 [error] <0.2490.0> Supervisor {<0.2490.0>,poolboy_sup} had child riak_core_vnode_worker started with riak_core_vnode_worker:start_link([{worker_module,riak_core_vnode_worker},{worker_args,[1107544209539824867701229912292808225833011380224,...]},...]) at undefined exit with reason no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in context shutdown_error
+2016-03-07 17:02:28.627 [error] <0.2490.0> gen_server <0.2490.0> terminated with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence})
+2016-03-07 17:02:28.627 [error] <0.2490.0> CRASH REPORT Process <0.2490.0> with 0 neighbours exited with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in gen_server:terminate/6 line 744
+2016-03-07 17:02:32.813 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.189' joined cluster with status 'joining'
+2016-03-07 17:02:33.084 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.182' joined cluster with status 'joining'
+2016-03-07 17:02:34.455 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.180' joined cluster with status 'joining'
+2016-03-07 17:02:35.144 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.179' joined cluster with status 'joining'
+2016-03-07 17:02:37.427 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.183' joined cluster with status 'joining'
+2016-03-07 17:04:20.884 [info] <0.4510.0>@riak_kv_sequencer:init:47 sequencer started
+2016-03-07 17:04:30.886 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:4:30 is 0 
+2016-03-07 17:04:40.887 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:4:40 is 0 
+2016-03-07 17:04:50.895 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:4:50 is 0 
+2016-03-07 17:05:00.896 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:5:0 is 0 
+2016-03-07 17:05:10.897 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:5:10 is 0 
+2016-03-07 17:05:20.898 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:5:20 is 0 
+2016-03-07 17:05:30.899 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:5:30 is 0 
+2016-03-07 17:05:40.900 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:5:40 is 0 
+2016-03-07 17:05:50.901 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:5:50 is 0 
+2016-03-07 17:06:00.902 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:6:0 is 0 
+2016-03-07 17:06:10.903 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:6:10 is 0 
+2016-03-07 17:06:20.904 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:6:20 is 0 
+2016-03-07 17:06:30.905 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:6:30 is 0 
+2016-03-07 17:06:40.906 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:6:40 is 0 
+2016-03-07 17:06:50.907 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:6:50 is 0 
+2016-03-07 17:07:00.908 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:7:0 is 52 
+2016-03-07 17:07:10.909 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:7:10 is 33259 
+2016-03-07 17:07:20.911 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:7:20 is 78626 
+2016-03-07 17:07:30.912 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:7:30 is 122947 
+2016-03-07 17:07:40.913 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:7:40 is 148006 
+2016-03-07 17:07:50.916 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:7:50 is 193169 
+2016-03-07 17:08:00.917 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:8:0 is 238216 
+2016-03-07 17:08:10.919 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:8:10 is 262075 
+2016-03-07 17:08:20.920 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:8:20 is 306539 
+2016-03-07 17:08:30.921 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:8:30 is 352567 
+2016-03-07 17:08:40.922 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:8:40 is 379945 
+2016-03-07 17:08:50.923 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:8:50 is 417870 
+2016-03-07 17:09:00.924 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:9:0 is 462744 
+2016-03-07 17:09:10.925 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:9:10 is 498908 
+2016-03-07 17:09:20.926 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:9:20 is 516406 
+2016-03-07 17:09:30.927 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:9:30 is 560518 
+2016-03-07 17:09:40.928 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:9:40 is 600154 
+2016-03-07 17:09:50.930 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:9:50 is 613805 
+2016-03-07 17:10:00.931 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:10:0 is 658736 
+2016-03-07 17:10:10.936 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:10:10 is 696631 
+2016-03-07 17:10:20.937 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:10:20 is 712747 
+2016-03-07 17:10:30.939 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:10:30 is 750091 
+2016-03-07 17:10:40.940 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:10:40 is 791645 
+2016-03-07 17:10:50.941 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:10:50 is 809910 
+2016-03-07 17:11:00.942 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:11:0 is 842309 
+2016-03-07 17:11:10.944 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:11:10 is 887318 
+2016-03-07 17:11:20.948 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:11:20 is 906686 
+2016-03-07 17:11:30.949 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:11:30 is 927335 
+2016-03-07 17:11:40.950 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:11:40 is 972349 
+2016-03-07 17:11:50.951 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:11:50 is 1003167 
+2016-03-07 17:12:00.952 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:12:0 is 1023886 
+2016-03-07 17:12:10.953 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:12:10 is 1068861 
+2016-03-07 17:12:20.954 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:12:20 is 1107392 
+2016-03-07 17:12:30.955 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:12:30 is 1117289 
+2016-03-07 17:12:40.956 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:12:40 is 1161940 
+2016-03-07 17:12:50.957 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:12:50 is 1203108 
+2016-03-07 17:13:00.958 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:13:0 is 1230689 
+2016-03-07 17:13:10.959 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:13:10 is 1264701 
+2016-03-07 17:13:20.960 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:13:20 is 1306903 
+2016-03-07 17:13:30.961 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:13:30 is 1337502 
+2016-03-07 17:13:40.962 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:13:40 is 1360958 
+2016-03-07 17:13:50.963 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:13:50 is 1402729 
+2016-03-07 17:14:00.964 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:14:0 is 1438223 
+2016-03-07 17:14:10.965 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:14:10 is 1453592 
+2016-03-07 17:14:20.966 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:14:20 is 1495987 
+2016-03-07 17:14:30.968 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:14:30 is 1531349 
+2016-03-07 17:14:40.969 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:14:40 is 1552638 
+2016-03-07 17:14:50.970 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:14:50 is 1587852 
+2016-03-07 17:15:00.972 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:15:0 is 1623399 
+2016-03-07 17:15:10.973 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:15:10 is 1655883 
+2016-03-07 17:15:20.974 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:15:20 is 1679926 
+2016-03-07 17:15:30.975 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:15:30 is 1717723 
+2016-03-07 17:15:40.976 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:15:40 is 1752063 
+2016-03-07 17:15:50.977 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:15:50 is 1773211 
+2016-03-07 17:16:00.978 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:16:0 is 1813826 
+2016-03-07 17:16:10.979 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:16:10 is 1849725 
+2016-03-07 17:16:20.980 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:16:20 is 1867085 
+2016-03-07 17:16:30.982 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:16:30 is 1905935 
+2016-03-07 17:16:40.983 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:16:40 is 1942643 
+2016-03-07 17:16:50.984 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:16:50 is 1978957 
+2016-03-07 17:17:00.985 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:17:0 is 2010420 
+2016-03-07 17:17:10.986 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:17:10 is 2024584 
+2016-03-07 17:17:20.987 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:17:20 is 2024584 
+2016-03-07 17:17:30.988 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:17:30 is 2024584 
+2016-03-07 17:17:40.989 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:17:40 is 2024584 
+2016-03-07 17:17:50.990 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:17:50 is 2024584 
+2016-03-07 17:18:00.991 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:18:0 is 2024584 
+2016-03-07 17:18:10.992 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:18:10 is 2024584 
+2016-03-07 17:18:20.993 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:18:20 is 2024584 
+2016-03-07 17:18:30.994 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:18:30 is 2024584 
+2016-03-07 17:18:40.995 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:18:40 is 2024584 
+2016-03-07 17:18:50.996 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:18:50 is 2024584 
+2016-03-07 17:19:00.997 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:19:0 is 2024584 
+2016-03-07 17:19:10.998 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:19:10 is 2024584 
+2016-03-07 17:19:20.999 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:19:20 is 2024584 
+2016-03-07 17:19:31.001 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:19:30 is 2024584 
+2016-03-07 17:19:41.002 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:19:40 is 2024584 
+2016-03-07 17:19:51.003 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:19:50 is 2024584 
+2016-03-07 17:20:01.004 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:20:0 is 2024584 
+2016-03-07 17:20:11.005 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:20:11 is 2024584 
+2016-03-07 17:20:21.006 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:20:21 is 2024584 
+2016-03-07 17:20:31.007 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:20:31 is 2024584 
+2016-03-07 17:20:41.008 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:20:41 is 2024584 
+2016-03-07 17:20:51.009 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:20:51 is 2024584 
+2016-03-07 17:21:01.010 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:21:1 is 2024584 
+2016-03-07 17:21:11.011 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:21:11 is 2024584 
+2016-03-07 17:21:21.012 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:21:21 is 2024584 
+2016-03-07 17:21:31.013 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:21:31 is 2024584 
+2016-03-07 17:21:41.014 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:21:41 is 2024584 
+2016-03-07 17:21:51.015 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:21:51 is 2024584 
+2016-03-07 17:22:01.016 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:22:1 is 2024584 
+2016-03-07 17:22:11.017 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:22:11 is 2024584 
+2016-03-07 17:22:21.018 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:22:21 is 2024584 
+2016-03-07 17:22:31.019 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:22:31 is 2024584 
+2016-03-07 17:22:41.020 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:22:41 is 2024584 
+2016-03-07 17:22:51.021 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:22:51 is 2024584 
+2016-03-07 17:23:01.022 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:23:1 is 2024584 
+2016-03-07 17:23:11.023 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:23:11 is 2024584 
+2016-03-07 17:23:21.024 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:23:21 is 2024584 
+2016-03-07 17:23:31.025 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:23:31 is 2024584 
+2016-03-07 17:23:41.026 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:23:41 is 2024584 
+2016-03-07 17:23:51.027 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:23:51 is 2024584 
+2016-03-07 17:24:01.028 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:24:1 is 2024584 
+2016-03-07 17:24:11.029 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:24:11 is 2024584 
+2016-03-07 17:24:21.030 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:24:21 is 2024584 
+2016-03-07 17:24:31.031 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:24:31 is 2024584 
+2016-03-07 17:24:41.032 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:24:41 is 2024584 
+2016-03-07 17:24:51.033 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:24:51 is 2024584 
+2016-03-07 17:25:01.034 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:25:1 is 2024584 
+2016-03-07 17:25:11.035 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:25:11 is 2024584 
+2016-03-07 17:25:21.036 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:25:21 is 2024584 
+2016-03-07 17:25:31.037 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:25:31 is 2024584 
+2016-03-07 17:25:41.038 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:25:41 is 2024584 
+2016-03-07 17:25:51.039 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:25:51 is 2024584 
+2016-03-07 17:26:01.040 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:26:1 is 2024584 
+2016-03-07 17:26:11.041 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:26:11 is 2024584 
+2016-03-07 17:26:21.042 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:26:21 is 2024584 
+2016-03-07 17:26:31.043 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:26:31 is 2024584 
+2016-03-07 17:26:41.044 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:26:41 is 2024584 
+2016-03-07 17:26:51.045 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:26:51 is 2024584 
+2016-03-07 17:27:01.046 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:27:1 is 2024584 
+2016-03-07 17:27:11.047 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:27:11 is 2024584 
+2016-03-07 17:27:21.048 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:27:21 is 2024584 
+2016-03-07 17:27:31.049 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:27:31 is 2024584 
+2016-03-07 17:27:41.050 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:27:41 is 2024584 
+2016-03-07 17:27:51.051 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:27:51 is 2024584 
+2016-03-07 17:28:01.052 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:28:1 is 2024584 
+2016-03-07 17:28:11.053 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:28:11 is 2024584 
+2016-03-07 17:28:21.054 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:28:21 is 2024584 
+2016-03-07 17:28:31.055 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:28:31 is 2024584 
+2016-03-07 17:28:41.056 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:28:41 is 2024584 
+2016-03-07 17:28:51.057 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:28:51 is 2024584 
+2016-03-07 17:29:01.058 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:29:1 is 2024584 
+2016-03-07 17:29:11.059 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:29:11 is 2024584 
+2016-03-07 17:29:21.060 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:29:21 is 2024584 
+2016-03-07 17:29:31.061 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:29:31 is 2024584 
+2016-03-07 17:29:41.062 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:29:41 is 2024584 
+2016-03-07 17:29:51.063 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:29:51 is 2024584 
+2016-03-07 17:30:01.064 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:30:1 is 2024584 
+2016-03-07 17:30:11.065 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:30:11 is 2024584 
+2016-03-07 17:30:21.066 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:30:21 is 2024584 
+2016-03-07 17:30:31.067 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:30:31 is 2024584 
+2016-03-07 17:30:41.068 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:30:41 is 2024584 
+2016-03-07 17:30:51.069 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:30:51 is 2024584 
+2016-03-07 17:31:01.070 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:31:1 is 2024584 
+2016-03-07 17:31:11.071 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:31:11 is 2024584 
+2016-03-07 17:31:21.072 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:31:21 is 2024584 
+2016-03-07 17:31:31.073 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:31:31 is 2024584 
+2016-03-07 17:31:41.074 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:31:41 is 2024584 
+2016-03-07 17:31:51.075 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:31:51 is 2024584 
+2016-03-07 17:32:01.076 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:32:1 is 2024584 
+2016-03-07 17:32:11.077 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:32:11 is 2024584 
+2016-03-07 17:32:21.078 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:32:21 is 2024584 
+2016-03-07 17:32:31.079 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:32:31 is 2024584 
+2016-03-07 17:32:41.080 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:32:41 is 2024584 
+2016-03-07 17:32:51.081 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:32:51 is 2024584 
+2016-03-07 17:33:01.082 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:33:1 is 2024584 
+2016-03-07 17:33:11.083 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:33:11 is 2024584 
+2016-03-07 17:33:21.084 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:33:21 is 2024584 
+2016-03-07 17:33:31.085 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:33:31 is 2024584 
+2016-03-07 17:33:41.086 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:33:41 is 2024584 
+2016-03-07 17:33:51.087 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:33:51 is 2024584 
+2016-03-07 17:34:01.088 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:34:1 is 2024584 
+2016-03-07 17:34:11.089 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:34:11 is 2024584 
+2016-03-07 17:34:21.090 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:34:21 is 2024584 
+2016-03-07 17:34:31.091 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:34:31 is 2024584 
+2016-03-07 17:34:41.092 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:34:41 is 2024584 
+2016-03-07 17:34:51.093 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:34:51 is 2024584 
+2016-03-07 17:35:01.094 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:35:1 is 2024584 
+2016-03-07 17:35:11.095 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:35:11 is 2024584 
+2016-03-07 17:35:21.096 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:35:21 is 2024584 
+2016-03-07 17:35:31.097 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:35:31 is 2024584 
+2016-03-07 17:35:41.098 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:35:41 is 2024584 
+2016-03-07 17:35:51.099 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:35:51 is 2024584 
+2016-03-07 17:36:01.100 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:36:1 is 2024584 
+2016-03-07 17:36:11.101 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:36:11 is 2024584 
+2016-03-07 17:36:21.102 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:36:21 is 2024584 
+2016-03-07 17:36:31.103 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:36:31 is 2024584 
+2016-03-07 17:36:41.104 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:36:41 is 2024584 
+2016-03-07 17:36:51.105 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:36:51 is 2024584 
+2016-03-07 17:37:01.106 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:37:1 is 2024584 
+2016-03-07 17:37:11.107 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:37:11 is 2024584 
+2016-03-07 17:37:21.108 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:37:21 is 2024584 
+2016-03-07 17:37:31.109 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:37:31 is 2024584 
+2016-03-07 17:37:41.110 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:37:41 is 2024584 
+2016-03-07 17:37:51.111 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:37:51 is 2024584 
+2016-03-07 17:38:01.112 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:38:1 is 2024584 
+2016-03-07 17:38:11.113 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:38:11 is 2024584 
+2016-03-07 17:38:21.114 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:38:21 is 2024584 
+2016-03-07 17:38:31.115 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:38:31 is 2024584 
+2016-03-07 17:38:41.116 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:38:41 is 2024584 
+2016-03-07 17:38:51.117 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:38:51 is 2024584 
+2016-03-07 17:39:01.118 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:39:1 is 2024584 
+2016-03-07 17:39:11.119 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:39:11 is 2024584 
+2016-03-07 17:39:21.120 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:39:21 is 2024584 
+2016-03-07 17:39:31.121 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:39:31 is 2024584 
+2016-03-07 17:39:41.122 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:39:41 is 2024584 
+2016-03-07 17:39:51.123 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:39:51 is 2024584 
+2016-03-07 17:40:01.124 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:40:1 is 2024584 
+2016-03-07 17:40:11.125 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:40:11 is 2024584 
+2016-03-07 17:40:21.126 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:40:21 is 2024584 
+2016-03-07 17:40:31.127 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:40:31 is 2024584 
+2016-03-07 17:40:41.128 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:40:41 is 2024584 
+2016-03-07 17:40:51.129 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:40:51 is 2024584 
+2016-03-07 17:41:01.130 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:41:1 is 2024584 
+2016-03-07 17:41:11.131 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:41:11 is 2024584 
+2016-03-07 17:41:21.132 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:41:21 is 2024584 
+2016-03-07 17:41:31.133 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:41:31 is 2024584 
+2016-03-07 17:41:41.134 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:41:41 is 2024584 
+2016-03-07 17:41:51.135 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:41:51 is 2024584 
+2016-03-07 17:42:01.136 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:42:1 is 2024584 
+2016-03-07 17:42:11.137 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:42:11 is 2024584 
+2016-03-07 17:42:21.138 [info] <0.4510.0>@riak_kv_sequencer:handle_info:66 sum request count at 17:42:21 is 2024584 
