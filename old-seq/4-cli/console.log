@@ -1,0 +1,114 @@
+2016-03-07 12:36:02.985 [info] <0.7.0> Application lager started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.008 [info] <0.7.0> Application sasl started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.008 [info] <0.7.0> Application asn1 started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.012 [info] <0.7.0> Application crypto started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.012 [info] <0.7.0> Application public_key started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.024 [info] <0.7.0> Application ssl started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.030 [info] <0.7.0> Application riak_sysmon started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.048 [info] <0.7.0> Application os_mon started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.068 [info] <0.7.0> Application runtime_tools started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.078 [info] <0.7.0> Application erlang_js started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.078 [info] <0.7.0> Application xmerl started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.123 [info] <0.7.0> Application inets started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.123 [info] <0.7.0> Application mochiweb started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.138 [info] <0.7.0> Application webmachine started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.138 [info] <0.7.0> Application basho_stats started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.167 [info] <0.7.0> Application bitcask started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.200 [info] <0.7.0> Application clique started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.200 [info] <0.7.0> Application eleveldb started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.201 [info] <0.7.0> Application pbkdf2 started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.201 [info] <0.7.0> Application poolboy started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.304 [info] <0.155.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2016-03-07 12:36:03.305 [info] <0.7.0> Application exometer_core started on node 'riak@172.31.0.174'
+2016-03-07 12:36:03.521 [warning] <0.175.0>@riak_core_ring_manager:reload_ring:359 No ring file available.
+2016-03-07 12:36:04.043 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2016-03-07 12:36:04.068 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2016-03-07 12:36:04.093 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2016-03-07 12:36:04.118 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2016-03-07 12:36:04.143 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2016-03-07 12:36:04.169 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2016-03-07 12:36:04.195 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2016-03-07 12:36:04.496 [info] <0.7.0> Application riak_core started on node 'riak@172.31.0.174'
+2016-03-07 12:36:04.513 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_pipe,trace_format} = ordsets
+2016-03-07 12:36:04.612 [info] <0.7.0> Application riak_pipe started on node 'riak@172.31.0.174'
+2016-03-07 12:36:04.621 [info] <0.7.0> Application sidejob started on node 'riak@172.31.0.174'
+2016-03-07 12:36:04.622 [info] <0.7.0> Application riak_dt started on node 'riak@172.31.0.174'
+2016-03-07 12:36:04.622 [info] <0.7.0> Application protobuffs started on node 'riak@172.31.0.174'
+2016-03-07 12:36:04.622 [info] <0.7.0> Application riak_pb started on node 'riak@172.31.0.174'
+2016-03-07 12:36:04.711 [info] <0.7.0> Application riak_api started on node 'riak@172.31.0.174'
+2016-03-07 12:36:04.852 [info] <0.325.0>@riak_kv_env:doc_env:46 Environment and OS variables:
+2016-03-07 12:36:05.031 [info] <0.325.0> riak_kv_env: Open file limit: 65536
+2016-03-07 12:36:05.031 [warning] <0.325.0> riak_kv_env: Cores are disabled, this may hinder debugging
+2016-03-07 12:36:05.031 [info] <0.325.0> riak_kv_env: Erlang process limit: 262144
+2016-03-07 12:36:05.031 [info] <0.325.0> riak_kv_env: Erlang ports limit: 65536
+2016-03-07 12:36:05.031 [info] <0.325.0> riak_kv_env: ETS table count limit: 256000
+2016-03-07 12:36:05.031 [info] <0.325.0> riak_kv_env: Thread pool size: 64
+2016-03-07 12:36:05.031 [info] <0.325.0> riak_kv_env: Generations before full sweep: 0
+2016-03-07 12:36:05.032 [info] <0.325.0> riak_kv_env: Schedulers: 2 for 2 cores
+2016-03-07 12:36:05.032 [warning] <0.325.0> riak_kv_env: sysctl vm.swappiness is 60, should be no more than 0)
+2016-03-07 12:36:05.032 [warning] <0.325.0> riak_kv_env: sysctl net.core.wmem_default is 229376, should be at least 8388608)
+2016-03-07 12:36:05.032 [warning] <0.325.0> riak_kv_env: sysctl net.core.rmem_default is 229376, should be at least 8388608)
+2016-03-07 12:36:05.032 [warning] <0.325.0> riak_kv_env: sysctl net.core.wmem_max is 131071, should be at least 8388608)
+2016-03-07 12:36:05.032 [warning] <0.325.0> riak_kv_env: sysctl net.core.rmem_max is 131071, should be at least 8388608)
+2016-03-07 12:36:05.032 [warning] <0.325.0> riak_kv_env: sysctl net.core.netdev_max_backlog is 1000, should be at least 10000)
+2016-03-07 12:36:05.032 [warning] <0.325.0> riak_kv_env: sysctl net.core.somaxconn is 128, should be at least 40000)
+2016-03-07 12:36:05.033 [warning] <0.325.0> riak_kv_env: sysctl net.ipv4.tcp_max_syn_backlog is 2048, should be at least 40000)
+2016-03-07 12:36:05.033 [warning] <0.325.0> riak_kv_env: sysctl net.ipv4.tcp_fin_timeout is 60, should be no more than 15)
+2016-03-07 12:36:05.033 [warning] <0.325.0> riak_kv_env: sysctl net.ipv4.tcp_keepalive_intvl is 75, should be no more than 30)
+2016-03-07 12:36:05.033 [info] <0.325.0> riak_kv_env: sysctl net.ipv4.tcp_sack is 1 equal to 1)
+2016-03-07 12:36:05.033 [info] <0.325.0> riak_kv_env: sysctl net.ipv4.tcp_moderate_rcvbuf is 1 equal to 1)
+2016-03-07 12:36:05.033 [warning] <0.325.0> riak_kv_env: sysctl net.ipv4.tcp_tw_reuse is 0, should be 1)
+2016-03-07 12:36:05.033 [info] <0.325.0> riak_kv_env: sysctl net.ipv4.tcp_window_scaling is 1 equal to 1)
+2016-03-07 12:36:05.075 [info] <0.363.0>@riak_core:wait_for_service:504 Waiting for service riak_kv to start (0 seconds)
+2016-03-07 12:36:05.138 [info] <0.380.0>@riak_kv_entropy_manager:set_aae_throttle_limits:790 Setting AAE throttle limits: [{-1,0},{200,10},{500,50},{750,250},{900,1000},{1100,5000}]
+2016-03-07 12:36:05.230 [info] <0.389.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.389.0>)
+2016-03-07 12:36:05.234 [info] <0.390.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.390.0>)
+2016-03-07 12:36:05.238 [info] <0.391.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.391.0>)
+2016-03-07 12:36:05.242 [info] <0.392.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.392.0>)
+2016-03-07 12:36:05.247 [info] <0.393.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.393.0>)
+2016-03-07 12:36:05.251 [info] <0.394.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.394.0>)
+2016-03-07 12:36:05.256 [info] <0.395.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.395.0>)
+2016-03-07 12:36:05.260 [info] <0.396.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.396.0>)
+2016-03-07 12:36:05.265 [info] <0.398.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.398.0>)
+2016-03-07 12:36:05.269 [info] <0.399.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.399.0>)
+2016-03-07 12:36:05.273 [info] <0.400.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.400.0>)
+2016-03-07 12:36:05.278 [info] <0.401.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.401.0>)
+2016-03-07 12:36:05.282 [info] <0.402.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.402.0>)
+2016-03-07 12:36:05.286 [info] <0.403.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.403.0>)
+2016-03-07 12:36:05.291 [info] <0.405.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_hook) host starting (<0.405.0>)
+2016-03-07 12:36:05.296 [info] <0.406.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_hook) host starting (<0.406.0>)
+2016-03-07 12:36:05.304 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,vnode_vclocks} = true
+2016-03-07 12:36:05.329 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,legacy_keylisting} = false
+2016-03-07 12:36:05.354 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,listkeys_backpressure} = true
+2016-03-07 12:36:05.380 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,index_backpressure} = true
+2016-03-07 12:36:05.405 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,mapred_system} = pipe
+2016-03-07 12:36:05.430 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,mapred_2i_pipe} = true
+2016-03-07 12:36:05.456 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,anti_entropy} = enabled_v1
+2016-03-07 12:36:05.481 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,handoff_data_encoding} = encode_raw
+2016-03-07 12:36:05.506 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,object_format} = v1
+2016-03-07 12:36:05.531 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,secondary_index_version} = v3
+2016-03-07 12:36:05.556 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,vclock_data_encoding} = encode_zlib
+2016-03-07 12:36:05.582 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,crdt} = [pncounter,riak_dt_pncounter,riak_dt_orswot,riak_dt_map]
+2016-03-07 12:36:05.616 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,crdt_epoch_versions} = [{riak_dt_map,2},{riak_dt_orswot,2},{riak_dt_pncounter,2}]
+2016-03-07 12:36:05.699 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,put_fsm_ack_execute} = enabled
+2016-03-07 12:36:05.812 [info] <0.7.0> Application riak_kv started on node 'riak@172.31.0.174'
+2016-03-07 12:36:05.904 [info] <0.193.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_control,member_info_version} = v1
+2016-03-07 12:36:19.734 [info] <0.363.0>@riak_core:wait_for_service:498 Wait complete for service riak_kv (13 seconds)
+2016-03-07 12:36:20.142 [info] <0.380.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from undefined -> 0 msec/key, based on maximum vnode mailbox size 0 from 'riak@172.31.0.174'
+2016-03-07 12:36:25.300 [warning] <0.6.0> lager_error_logger_h dropped 1 messages in the last second that exceeded the limit of 100 messages/sec
+2016-03-07 12:36:25.300 [error] <0.1957.0> gen_fsm <0.1957.0> in state waiting_local_vnode terminated with reason: no case clause matching {vnode_error,{noproc,{gen_server,call,[{global,sequencer_ordering_service},{sequence}]}}} in riak_kv_put_fsm:waiting_local_vnode/2 line 567
+2016-03-07 12:36:25.301 [error] <0.1957.0> CRASH REPORT Process <0.1957.0> with 0 neighbours exited with reason: no case clause matching {vnode_error,{noproc,{gen_server,call,[{global,sequencer_ordering_service},{sequence}]}}} in riak_kv_put_fsm:waiting_local_vnode/2 line 567 in gen_fsm:terminate/7 line 622
+2016-03-07 12:36:25.303 [error] <0.1327.0>@riak_core_vnode:vnode_command:349 riak_kv_vnode command failed {noproc,{gen_server,call,[{global,sequencer_ordering_service},{sequence}]}}
+2016-03-07 12:36:25.304 [error] <0.1327.0> gen_fsm <0.1327.0> in state active terminated with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence})
+2016-03-07 12:36:25.304 [error] <0.1327.0> CRASH REPORT Process <0.1327.0> with 2 neighbours exited with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in gen_fsm:terminate/7 line 622
+2016-03-07 12:36:25.308 [error] <0.164.0> Supervisor riak_core_vnode_sup had child undefined started with {riak_core_vnode,start_link,undefined} at <0.1327.0> exit with reason no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in context child_terminated
+2016-03-07 12:36:25.308 [error] <0.1601.0> gen_fsm <0.1601.0> in state ready terminated with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence})
+2016-03-07 12:36:25.308 [error] <0.1601.0> CRASH REPORT Process <0.1601.0> with 10 neighbours exited with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in gen_fsm:terminate/7 line 622
+2016-03-07 12:36:25.308 [error] <0.1602.0> Supervisor {<0.1602.0>,poolboy_sup} had child riak_core_vnode_worker started with riak_core_vnode_worker:start_link([{worker_module,riak_core_vnode_worker},{worker_args,[1118962191081472546749696200048404186924073353216,...]},...]) at undefined exit with reason no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in context shutdown_error
+2016-03-07 12:36:25.309 [error] <0.1602.0> gen_server <0.1602.0> terminated with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence})
+2016-03-07 12:36:25.309 [error] <0.1602.0> CRASH REPORT Process <0.1602.0> with 0 neighbours exited with reason: no such process or port in call to gen_server:call({global,sequencer_ordering_service}, {sequence}) in gen_server:terminate/6 line 744
+2016-03-07 12:37:27.431 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.180' joined cluster with status 'joining'
+2016-03-07 12:37:27.653 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.179' joined cluster with status 'joining'
+2016-03-07 12:37:27.687 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.189' joined cluster with status 'joining'
+2016-03-07 12:37:27.755 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.182' joined cluster with status 'joining'
+2016-03-07 12:37:28.004 [info] <0.175.0>@riak_core_gossip:log_node_added:394 'riak@172.31.0.183' joined cluster with status 'joining'
