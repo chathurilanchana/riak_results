@@ -1,5 +1,5 @@
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:48 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:45 ===
           supervisor: {local,sasl_safe_sup}
              started: [{pid,<0.73.0>},
                        {name,alarm_handler},
@@ -8,7 +8,7 @@
                        {shutdown,2000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:48 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:45 ===
           supervisor: {local,sasl_safe_sup}
              started: [{pid,<0.74.0>},
                        {name,overload},
@@ -17,7 +17,7 @@
                        {shutdown,2000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:48 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:45 ===
           supervisor: {local,sasl_sup}
              started: [{pid,<0.72.0>},
                        {name,sasl_safe_sup},
@@ -28,7 +28,7 @@
                        {shutdown,infinity},
                        {child_type,supervisor}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:48 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:45 ===
           supervisor: {local,sasl_sup}
              started: [{pid,<0.75.0>},
                        {name,release_handler},
@@ -37,11 +37,11 @@
                        {shutdown,2000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:48 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:45 ===
          application: sasl
           started_at: nonode@nohost
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:48 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:46 ===
           supervisor: {local,crypto_sup}
              started: [{pid,<0.81.0>},
                        {name,crypto_server},
@@ -50,11 +50,11 @@
                        {shutdown,2000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:48 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:46 ===
          application: crypto
           started_at: nonode@nohost
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:48 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:46 ===
           supervisor: {local,folsom_sup}
              started: [{pid,<0.91.0>},
                        {name,folsom_sample_slide_sup},
@@ -63,7 +63,7 @@
                        {shutdown,5000},
                        {child_type,supervisor}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:48 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:46 ===
           supervisor: {local,folsom_sup}
              started: [{pid,<0.92.0>},
                        {name,folsom_meter_timer_server},
@@ -72,7 +72,7 @@
                        {shutdown,2000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:48 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:46 ===
           supervisor: {local,folsom_sup}
              started: [{pid,<0.93.0>},
                        {name,folsom_metrics_histogram_ets},
@@ -81,11 +81,11 @@
                        {shutdown,2000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:48 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:46 ===
          application: folsom
           started_at: nonode@nohost
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:48 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:46 ===
           supervisor: {local,basho_bench_sup}
              started: [{pid,<0.86.0>},
                        {name,basho_bench_stats},
@@ -94,62 +94,62 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:49 ===
           supervisor: {local,net_sup}
-             started: [{pid,<0.101.0>},
+             started: [{pid,<0.99.0>},
                        {name,erl_epmd},
                        {mfargs,{erl_epmd,start_link,[]}},
                        {restart_type,permanent},
                        {shutdown,2000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:49 ===
           supervisor: {local,net_sup}
-             started: [{pid,<0.102.0>},
+             started: [{pid,<0.100.0>},
                        {name,auth},
                        {mfargs,{auth,start_link,[]}},
                        {restart_type,permanent},
                        {shutdown,2000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:49 ===
           supervisor: {local,net_sup}
-             started: [{pid,<0.103.0>},
+             started: [{pid,<0.101.0>},
                        {name,net_kernel},
                        {mfargs,
                            {net_kernel,start_link,
-                               [['basho_bench1@172.31.0.189',longnames]]}},
+                               [['riak_bench@172.31.0.178',longnames]]}},
                        {restart_type,permanent},
                        {shutdown,2000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:49 ===
           supervisor: {local,kernel_sup}
-             started: [{pid,<0.100.0>},
+             started: [{pid,<0.98.0>},
                        {name,net_sup_dynamic},
                        {mfargs,
                            {erl_distribution,start_link,
-                               [['basho_bench1@172.31.0.189',longnames]]}},
+                               [['riak_bench@172.31.0.178',longnames]]}},
                        {restart_type,permanent},
                        {shutdown,1000},
                        {child_type,supervisor}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:49 ===
           supervisor: {local,inet_gethost_native_sup}
-             started: [{pid,<0.108.0>},{mfa,{inet_gethost_native,init,[[]]}}]
+             started: [{pid,<0.106.0>},{mfa,{inet_gethost_native,init,[[]]}}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:49 ===
           supervisor: {local,kernel_safe_sup}
-             started: [{pid,<0.107.0>},
+             started: [{pid,<0.105.0>},
                        {name,inet_gethost_native_sup},
                        {mfargs,{inet_gethost_native,start_link,[]}},
                        {restart_type,temporary},
                        {shutdown,1000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.97.0>},
+             started: [{pid,<0.95.0>},
                        {name,basho_bench_worker_1},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -158,9 +158,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.131.0>},
+             started: [{pid,<0.115.0>},
                        {name,basho_bench_worker_2},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -169,9 +169,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.134.0>},
+             started: [{pid,<0.118.0>},
                        {name,basho_bench_worker_3},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -180,9 +180,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.138.0>},
+             started: [{pid,<0.121.0>},
                        {name,basho_bench_worker_4},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -191,9 +191,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.140.0>},
+             started: [{pid,<0.124.0>},
                        {name,basho_bench_worker_5},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -202,9 +202,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.142.0>},
+             started: [{pid,<0.127.0>},
                        {name,basho_bench_worker_6},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -213,9 +213,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.144.0>},
+             started: [{pid,<0.130.0>},
                        {name,basho_bench_worker_7},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -224,9 +224,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.146.0>},
+             started: [{pid,<0.133.0>},
                        {name,basho_bench_worker_8},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -235,9 +235,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.148.0>},
+             started: [{pid,<0.136.0>},
                        {name,basho_bench_worker_9},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -246,9 +246,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.150.0>},
+             started: [{pid,<0.139.0>},
                        {name,basho_bench_worker_10},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -257,9 +257,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.152.0>},
+             started: [{pid,<0.142.0>},
                        {name,basho_bench_worker_11},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -268,9 +268,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.154.0>},
+             started: [{pid,<0.145.0>},
                        {name,basho_bench_worker_12},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -279,9 +279,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.156.0>},
+             started: [{pid,<0.148.0>},
                        {name,basho_bench_worker_13},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -290,9 +290,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:52 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.158.0>},
+             started: [{pid,<0.151.0>},
                        {name,basho_bench_worker_14},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -301,9 +301,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.160.0>},
+             started: [{pid,<0.154.0>},
                        {name,basho_bench_worker_15},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -312,9 +312,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.162.0>},
+             started: [{pid,<0.157.0>},
                        {name,basho_bench_worker_16},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -323,9 +323,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.164.0>},
+             started: [{pid,<0.160.0>},
                        {name,basho_bench_worker_17},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -334,9 +334,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.166.0>},
+             started: [{pid,<0.163.0>},
                        {name,basho_bench_worker_18},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -345,9 +345,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.168.0>},
+             started: [{pid,<0.166.0>},
                        {name,basho_bench_worker_19},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -356,9 +356,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.170.0>},
+             started: [{pid,<0.169.0>},
                        {name,basho_bench_worker_20},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -367,7 +367,7 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
              started: [{pid,<0.172.0>},
                        {name,basho_bench_worker_21},
@@ -378,9 +378,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.174.0>},
+             started: [{pid,<0.175.0>},
                        {name,basho_bench_worker_22},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -389,9 +389,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.176.0>},
+             started: [{pid,<0.178.0>},
                        {name,basho_bench_worker_23},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -400,9 +400,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.178.0>},
+             started: [{pid,<0.181.0>},
                        {name,basho_bench_worker_24},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -411,9 +411,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.180.0>},
+             started: [{pid,<0.184.0>},
                        {name,basho_bench_worker_25},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -422,9 +422,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.182.0>},
+             started: [{pid,<0.187.0>},
                        {name,basho_bench_worker_26},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -433,9 +433,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.184.0>},
+             started: [{pid,<0.190.0>},
                        {name,basho_bench_worker_27},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -444,9 +444,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.186.0>},
+             started: [{pid,<0.193.0>},
                        {name,basho_bench_worker_28},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -455,9 +455,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.188.0>},
+             started: [{pid,<0.196.0>},
                        {name,basho_bench_worker_29},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -466,9 +466,9 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,basho_bench_sup}
-             started: [{pid,<0.190.0>},
+             started: [{pid,<0.199.0>},
                        {name,basho_bench_worker_30},
                        {mfargs,
                            {basho_bench_worker,start_link,
@@ -477,15 +477,15 @@
                        {shutdown,5000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
           supervisor: {local,kernel_safe_sup}
-             started: [{pid,<0.192.0>},
+             started: [{pid,<0.202.0>},
                        {name,timer_server},
                        {mfargs,{timer,start_link,[]}},
                        {restart_type,permanent},
                        {shutdown,1000},
                        {child_type,worker}]
 
-=PROGRESS REPORT==== 5-Mar-2016::16:48:53 ===
+=PROGRESS REPORT==== 11-Mar-2016::15:15:50 ===
          application: basho_bench
-          started_at: 'basho_bench1@172.31.0.189'
+          started_at: 'riak_bench@172.31.0.178'
