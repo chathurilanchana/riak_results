@@ -1,0 +1,13 @@
+2016-03-20 18:56:34.865 [debug] <0.54.0>@lager_handler_watcher:94 Lager installed handler {lager_file_backend,
+                            "/root/Basho-Sequencer-Load-Test/basho_bench/tests/20160320_185634/error.log"} into lager_event
+2016-03-20 18:56:34.865 [debug] <0.56.0>@lager_handler_watcher:94 Lager installed handler {lager_file_backend,
+                            "/root/Basho-Sequencer-Load-Test/basho_bench/tests/20160320_185634/console.log"} into lager_event
+2016-03-20 18:56:34.865 [debug] <0.58.0>@lager_handler_watcher:94 Lager installed handler error_logger_lager_h into error_logger
+2016-03-20 18:56:34.987 [debug] <0.41.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.60.0>
+2016-03-20 18:56:34.987 [debug] <0.40.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.61.0>
+2016-03-20 18:56:34.987 [debug] <0.42.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.62.0>
+2016-03-20 18:56:34.988 [debug] <0.42.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0}]) at pid <0.63.0>
+2016-03-20 18:56:35.285 [debug] <0.50.0>@lager_handler_watcher:94 Lager installed handler lager_backend_throttle into lager_event
+2016-03-20 18:56:37.082 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-03-20 18:56:37.088 [notice] <0.47.0>@lager_file_backend:127 Changed loglevel of /root/Basho-Sequencer-Load-Test/basho_bench/tests/20160320_185634/console.log to debug
+2016-03-20 18:56:37.091 [error] <0.2.0>@basho_bench:add_code_paths:228 Failed to add "/root/Riak-Load-Test/riak/rel/riak/lib/riak_kv-2.1.1-54-g12da29f/ebin" to code_path: {error,bad_directory}

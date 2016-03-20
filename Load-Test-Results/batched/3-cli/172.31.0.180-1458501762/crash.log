@@ -1,0 +1,9 @@
+2016-03-19 15:03:48 =ERROR REPORT====
+** Node 'riak@172.31.0.174' not responding **
+** Removing (timedout) connection **
+2016-03-19 15:04:40 =SUPERVISOR REPORT====
+     Supervisor: {local,basho_bench_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.86.0>},{name,basho_bench_stats},{mfargs,{basho_bench_stats,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
