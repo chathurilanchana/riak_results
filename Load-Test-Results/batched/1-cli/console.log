@@ -1,0 +1,209 @@
+2016-03-21 09:43:37.846 [info] <0.7.0> Application lager started on node 'riak@172.31.0.174'
+2016-03-21 09:43:37.886 [info] <0.7.0> Application sasl started on node 'riak@172.31.0.174'
+2016-03-21 09:43:37.886 [info] <0.7.0> Application asn1 started on node 'riak@172.31.0.174'
+2016-03-21 09:43:37.901 [info] <0.7.0> Application crypto started on node 'riak@172.31.0.174'
+2016-03-21 09:43:37.901 [info] <0.7.0> Application public_key started on node 'riak@172.31.0.174'
+2016-03-21 09:43:37.921 [info] <0.7.0> Application ssl started on node 'riak@172.31.0.174'
+2016-03-21 09:43:37.936 [info] <0.7.0> Application riak_sysmon started on node 'riak@172.31.0.174'
+2016-03-21 09:43:37.975 [info] <0.7.0> Application os_mon started on node 'riak@172.31.0.174'
+2016-03-21 09:43:38.003 [info] <0.7.0> Application runtime_tools started on node 'riak@172.31.0.174'
+2016-03-21 09:43:38.033 [info] <0.7.0> Application erlang_js started on node 'riak@172.31.0.174'
+2016-03-21 09:43:38.033 [info] <0.7.0> Application xmerl started on node 'riak@172.31.0.174'
+2016-03-21 09:43:38.089 [info] <0.7.0> Application inets started on node 'riak@172.31.0.174'
+2016-03-21 09:43:38.089 [info] <0.7.0> Application mochiweb started on node 'riak@172.31.0.174'
+2016-03-21 09:43:38.102 [info] <0.7.0> Application webmachine started on node 'riak@172.31.0.174'
+2016-03-21 09:43:38.102 [info] <0.7.0> Application basho_stats started on node 'riak@172.31.0.174'
+2016-03-21 09:43:38.122 [info] <0.7.0> Application bitcask started on node 'riak@172.31.0.174'
+2016-03-21 09:43:38.146 [info] <0.7.0> Application clique started on node 'riak@172.31.0.174'
+2016-03-21 09:43:38.147 [info] <0.7.0> Application eleveldb started on node 'riak@172.31.0.174'
+2016-03-21 09:43:38.149 [info] <0.7.0> Application pbkdf2 started on node 'riak@172.31.0.174'
+2016-03-21 09:43:38.149 [info] <0.7.0> Application poolboy started on node 'riak@172.31.0.174'
+2016-03-21 09:43:38.234 [info] <0.156.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2016-03-21 09:43:38.234 [info] <0.7.0> Application exometer_core started on node 'riak@172.31.0.174'
+2016-03-21 09:43:38.464 [warning] <0.178.0>@riak_core_ring_manager:reload_ring:359 No ring file available.
+2016-03-21 09:43:39.137 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2016-03-21 09:43:39.168 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2016-03-21 09:43:39.218 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2016-03-21 09:43:39.277 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2016-03-21 09:43:39.327 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2016-03-21 09:43:39.352 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2016-03-21 09:43:39.403 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2016-03-21 09:43:39.637 [info] <0.7.0> Application riak_core started on node 'riak@172.31.0.174'
+2016-03-21 09:43:39.658 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_pipe,trace_format} = ordsets
+2016-03-21 09:43:39.804 [info] <0.7.0> Application riak_pipe started on node 'riak@172.31.0.174'
+2016-03-21 09:43:39.824 [info] <0.7.0> Application sidejob started on node 'riak@172.31.0.174'
+2016-03-21 09:43:39.824 [info] <0.7.0> Application riak_dt started on node 'riak@172.31.0.174'
+2016-03-21 09:43:39.824 [info] <0.7.0> Application protobuffs started on node 'riak@172.31.0.174'
+2016-03-21 09:43:39.824 [info] <0.7.0> Application riak_pb started on node 'riak@172.31.0.174'
+2016-03-21 09:43:39.927 [info] <0.7.0> Application riak_api started on node 'riak@172.31.0.174'
+2016-03-21 09:43:40.080 [info] <0.326.0>@riak_kv_env:doc_env:46 Environment and OS variables:
+2016-03-21 09:43:40.254 [info] <0.326.0> riak_kv_env: Open file limit: 65536
+2016-03-21 09:43:40.254 [warning] <0.326.0> riak_kv_env: Cores are disabled, this may hinder debugging
+2016-03-21 09:43:40.254 [info] <0.326.0> riak_kv_env: Erlang process limit: 262144
+2016-03-21 09:43:40.254 [info] <0.326.0> riak_kv_env: Erlang ports limit: 65536
+2016-03-21 09:43:40.254 [info] <0.326.0> riak_kv_env: ETS table count limit: 256000
+2016-03-21 09:43:40.254 [info] <0.326.0> riak_kv_env: Thread pool size: 64
+2016-03-21 09:43:40.254 [info] <0.326.0> riak_kv_env: Generations before full sweep: 0
+2016-03-21 09:43:40.254 [info] <0.326.0> riak_kv_env: Schedulers: 2 for 2 cores
+2016-03-21 09:43:40.255 [warning] <0.326.0> riak_kv_env: sysctl vm.swappiness is 60, should be no more than 0)
+2016-03-21 09:43:40.255 [warning] <0.326.0> riak_kv_env: sysctl net.core.wmem_default is 229376, should be at least 8388608)
+2016-03-21 09:43:40.255 [warning] <0.326.0> riak_kv_env: sysctl net.core.rmem_default is 229376, should be at least 8388608)
+2016-03-21 09:43:40.255 [warning] <0.326.0> riak_kv_env: sysctl net.core.wmem_max is 131071, should be at least 8388608)
+2016-03-21 09:43:40.255 [warning] <0.326.0> riak_kv_env: sysctl net.core.rmem_max is 131071, should be at least 8388608)
+2016-03-21 09:43:40.255 [warning] <0.326.0> riak_kv_env: sysctl net.core.netdev_max_backlog is 1000, should be at least 10000)
+2016-03-21 09:43:40.255 [warning] <0.326.0> riak_kv_env: sysctl net.core.somaxconn is 128, should be at least 40000)
+2016-03-21 09:43:40.256 [warning] <0.326.0> riak_kv_env: sysctl net.ipv4.tcp_max_syn_backlog is 2048, should be at least 40000)
+2016-03-21 09:43:40.256 [warning] <0.326.0> riak_kv_env: sysctl net.ipv4.tcp_fin_timeout is 60, should be no more than 15)
+2016-03-21 09:43:40.256 [warning] <0.326.0> riak_kv_env: sysctl net.ipv4.tcp_keepalive_intvl is 75, should be no more than 30)
+2016-03-21 09:43:40.256 [info] <0.326.0> riak_kv_env: sysctl net.ipv4.tcp_sack is 1 equal to 1)
+2016-03-21 09:43:40.256 [info] <0.326.0> riak_kv_env: sysctl net.ipv4.tcp_moderate_rcvbuf is 1 equal to 1)
+2016-03-21 09:43:40.256 [warning] <0.326.0> riak_kv_env: sysctl net.ipv4.tcp_tw_reuse is 0, should be 1)
+2016-03-21 09:43:40.256 [info] <0.326.0> riak_kv_env: sysctl net.ipv4.tcp_window_scaling is 1 equal to 1)
+2016-03-21 09:43:40.292 [info] <0.364.0>@riak_core:wait_for_service:504 Waiting for service riak_kv to start (0 seconds)
+2016-03-21 09:43:40.351 [info] <0.381.0>@riak_kv_entropy_manager:set_aae_throttle_limits:790 Setting AAE throttle limits: [{-1,0},{200,10},{500,50},{750,250},{900,1000},{1100,5000}]
+2016-03-21 09:43:40.436 [info] <0.390.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.390.0>)
+2016-03-21 09:43:40.440 [info] <0.391.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.391.0>)
+2016-03-21 09:43:40.443 [info] <0.392.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.392.0>)
+2016-03-21 09:43:40.446 [info] <0.393.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.393.0>)
+2016-03-21 09:43:40.450 [info] <0.394.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.394.0>)
+2016-03-21 09:43:40.457 [info] <0.395.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.395.0>)
+2016-03-21 09:43:40.462 [info] <0.396.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.396.0>)
+2016-03-21 09:43:40.469 [info] <0.397.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.397.0>)
+2016-03-21 09:43:40.473 [info] <0.399.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.399.0>)
+2016-03-21 09:43:40.477 [info] <0.400.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.400.0>)
+2016-03-21 09:43:40.481 [info] <0.401.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.401.0>)
+2016-03-21 09:43:40.484 [info] <0.402.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.402.0>)
+2016-03-21 09:43:40.487 [info] <0.403.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.403.0>)
+2016-03-21 09:43:40.490 [info] <0.404.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.404.0>)
+2016-03-21 09:43:40.493 [info] <0.406.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_hook) host starting (<0.406.0>)
+2016-03-21 09:43:40.496 [info] <0.407.0>@riak_kv_js_vm:init:73 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_hook) host starting (<0.407.0>)
+2016-03-21 09:43:40.501 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,vnode_vclocks} = true
+2016-03-21 09:43:40.546 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,legacy_keylisting} = false
+2016-03-21 09:43:40.580 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,listkeys_backpressure} = true
+2016-03-21 09:43:40.613 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,index_backpressure} = true
+2016-03-21 09:43:40.647 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,mapred_system} = pipe
+2016-03-21 09:43:40.680 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,mapred_2i_pipe} = true
+2016-03-21 09:43:40.714 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,anti_entropy} = enabled_v1
+2016-03-21 09:43:40.748 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,handoff_data_encoding} = encode_raw
+2016-03-21 09:43:40.781 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,object_format} = v1
+2016-03-21 09:43:40.833 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,secondary_index_version} = v3
+2016-03-21 09:43:40.891 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,vclock_data_encoding} = encode_zlib
+2016-03-21 09:43:40.917 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,crdt} = [pncounter,riak_dt_pncounter,riak_dt_orswot,riak_dt_map]
+2016-03-21 09:43:40.976 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,crdt_epoch_versions} = [{riak_dt_map,2},{riak_dt_orswot,2},{riak_dt_pncounter,2}]
+2016-03-21 09:43:41.025 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_kv,put_fsm_ack_execute} = enabled
+2016-03-21 09:43:41.159 [info] <0.7.0> Application riak_kv started on node 'riak@172.31.0.174'
+2016-03-21 09:43:41.180 [info] <0.7.0> Application merge_index started on node 'riak@172.31.0.174'
+2016-03-21 09:43:41.185 [info] <0.7.0> Application riak_search started on node 'riak@172.31.0.174'
+2016-03-21 09:43:41.202 [info] <0.7.0> Application ibrowse started on node 'riak@172.31.0.174'
+2016-03-21 09:43:41.212 [info] <0.7.0> Application yokozuna started on node 'riak@172.31.0.174'
+2016-03-21 09:43:41.219 [info] <0.7.0> Application cluster_info started on node 'riak@172.31.0.174'
+2016-03-21 09:43:41.229 [info] <0.197.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_control,member_info_version} = v1
+2016-03-21 09:43:41.292 [info] <0.7.0> Application riak_control started on node 'riak@172.31.0.174'
+2016-03-21 09:43:41.292 [info] <0.7.0> Application erlydtl started on node 'riak@172.31.0.174'
+2016-03-21 09:43:41.391 [info] <0.7.0> Application riak_auth_mods started on node 'riak@172.31.0.174'
+2016-03-21 09:43:56.044 [info] <0.381.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from undefined -> 0 msec/key, based on maximum vnode mailbox size 0 from 'riak@172.31.0.174'
+2016-03-21 09:43:56.048 [info] <0.364.0>@riak_core:wait_for_service:498 Wait complete for service riak_kv (13 seconds)
+2016-03-21 09:44:13.151 [info] <0.592.0>@riak_kv_sup:start_ordering_service_ets_ordered:150 supervisor starting the ordering service normal
+2016-03-21 09:44:13.168 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:init:63 ordering service started
+2016-03-21 09:44:13.168 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:init:65 ordering service started memory 2872 
+2016-03-21 09:44:13.168 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:init:69 after memory is memory 4016 
+2016-03-21 09:44:13.168 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:init:71 client_count is 30 
+2016-03-21 09:44:13.168 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:init:73 dictionary size is 30 
+2016-03-21 09:44:23.169 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:113 timestamp 9: 44: 23: added 0 deleted 0  
+2016-03-21 09:44:33.170 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:113 timestamp 9: 44: 33: added 0 deleted 0  
+2016-03-21 09:44:43.171 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:113 timestamp 9: 44: 43: added 0 deleted 0  
+2016-03-21 09:44:53.172 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:113 timestamp 9: 44: 53: added 0 deleted 0  
+2016-03-21 09:45:03.173 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:113 timestamp 9: 45: 3: added 0 deleted 0  
+2016-03-21 09:45:13.174 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:113 timestamp 9: 45: 13: added 0 deleted 0  
+2016-03-21 09:45:23.175 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:113 timestamp 9: 45: 23: added 0 deleted 0  
+2016-03-21 09:45:33.176 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:113 timestamp 9: 45: 33: added 0 deleted 0  
+2016-03-21 09:45:43.177 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:113 timestamp 9: 45: 43: added 0 deleted 0  
+2016-03-21 09:45:53.177 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:113 timestamp 9: 45: 53: added 0 deleted 0  
+2016-03-21 09:46:03.178 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 46: 3: added 759684 deleted 758793 
+2016-03-21 09:46:13.179 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 46: 13: added 1749822 deleted 1748282 
+2016-03-21 09:46:20.521 [info] <0.381.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 0 -> 5000 msec/key, based on maximum vnode mailbox size {unknown_mailbox_sizes,node_list,['riak_bench@172.31.0.179']} from ['riak_bench@172.31.0.179']
+2016-03-21 09:46:23.180 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 46: 23: added 2734119 deleted 2731782 
+2016-03-21 09:46:33.181 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 46: 33: added 3717177 deleted 3716184 
+2016-03-21 09:46:34.191 [info] <0.381.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 5000 -> 0 msec/key, based on maximum vnode mailbox size 0 from 'riak_bench@172.31.0.179'
+2016-03-21 09:46:43.182 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 46: 43: added 4711799 deleted 4710501 
+2016-03-21 09:46:53.183 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 46: 53: added 5694444 deleted 5693299 
+2016-03-21 09:47:03.184 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 47: 3: added 6673313 deleted 6671681 
+2016-03-21 09:47:13.185 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 47: 13: added 7651887 deleted 7651055 
+2016-03-21 09:47:23.186 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 47: 23: added 8612820 deleted 8611303 
+2016-03-21 09:47:33.187 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 47: 33: added 9570272 deleted 9568834 
+2016-03-21 09:47:43.188 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 47: 43: added 10552445 deleted 10550670 
+2016-03-21 09:47:53.189 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 47: 53: added 11506593 deleted 11505394 
+2016-03-21 09:48:03.190 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 48: 3: added 12474311 deleted 12472504 
+2016-03-21 09:48:13.191 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 48: 13: added 13450761 deleted 13449399 
+2016-03-21 09:48:23.192 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 48: 23: added 14413995 deleted 14411686 
+2016-03-21 09:48:33.193 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 48: 33: added 15394221 deleted 15391955 
+2016-03-21 09:48:43.194 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 48: 43: added 16365538 deleted 16363990 
+2016-03-21 09:48:53.195 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 48: 53: added 17299980 deleted 17298406 
+2016-03-21 09:49:03.196 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 49: 3: added 18277905 deleted 18276898 
+2016-03-21 09:49:13.197 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 49: 13: added 19230873 deleted 19229426 
+2016-03-21 09:49:23.198 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 49: 23: added 20220893 deleted 20219780 
+2016-03-21 09:49:33.199 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 49: 33: added 21215515 deleted 21214323 
+2016-03-21 09:49:43.200 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 49: 43: added 22223176 deleted 22221831 
+2016-03-21 09:49:53.201 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 49: 53: added 23215969 deleted 23213748 
+2016-03-21 09:50:03.202 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 50: 3: added 24129643 deleted 24128406 
+2016-03-21 09:50:13.203 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 50: 13: added 25092169 deleted 25090823 
+2016-03-21 09:50:20.581 [info] <0.381.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 0 -> 5000 msec/key, based on maximum vnode mailbox size {unknown_mailbox_sizes,node_list,['riak_bench@172.31.0.179']} from ['riak_bench@172.31.0.179']
+2016-03-21 09:50:23.204 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 50: 23: added 26049149 deleted 26046881 
+2016-03-21 09:50:33.205 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 50: 33: added 26972263 deleted 26970640 
+2016-03-21 09:50:43.206 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 50: 43: added 27915614 deleted 27913491 
+2016-03-21 09:50:46.725 [info] <0.381.0>@riak_kv_entropy_manager:perhaps_log_throttle_change:853 Changing AAE throttle from 5000 -> 0 msec/key, based on maximum vnode mailbox size 0 from 'riak_bench@172.31.0.179'
+2016-03-21 09:50:53.207 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 50: 53: added 28846280 deleted 28845297 
+2016-03-21 09:51:03.208 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 51: 3: added 29835120 deleted 29810924 
+2016-03-21 09:51:13.209 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 51: 13: added 29845386 deleted 29810924 
+2016-03-21 09:51:23.209 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 51: 23: added 29845386 deleted 29810924 
+2016-03-21 09:51:33.210 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 51: 33: added 29845386 deleted 29810924 
+2016-03-21 09:51:43.211 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 51: 43: added 29845386 deleted 29810924 
+2016-03-21 09:51:53.212 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 51: 53: added 29845386 deleted 29810924 
+2016-03-21 09:52:03.213 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 52: 3: added 29845386 deleted 29810924 
+2016-03-21 09:52:13.214 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 52: 13: added 29845386 deleted 29810924 
+2016-03-21 09:52:23.215 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 52: 23: added 29845386 deleted 29810924 
+2016-03-21 09:52:33.216 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 52: 33: added 29845386 deleted 29810924 
+2016-03-21 09:52:43.217 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 52: 43: added 29845386 deleted 29810924 
+2016-03-21 09:52:53.218 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 52: 53: added 29845386 deleted 29810924 
+2016-03-21 09:53:03.219 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 53: 3: added 29845386 deleted 29810924 
+2016-03-21 09:53:13.220 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 53: 13: added 29845386 deleted 29810924 
+2016-03-21 09:53:23.221 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 53: 23: added 29845386 deleted 29810924 
+2016-03-21 09:53:33.222 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 53: 33: added 29845386 deleted 29810924 
+2016-03-21 09:53:43.223 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 53: 43: added 29845386 deleted 29810924 
+2016-03-21 09:53:53.224 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 53: 53: added 29845386 deleted 29810924 
+2016-03-21 09:54:03.225 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 54: 3: added 29845386 deleted 29810924 
+2016-03-21 09:54:13.226 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 54: 13: added 29845386 deleted 29810924 
+2016-03-21 09:54:23.227 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 54: 23: added 29845386 deleted 29810924 
+2016-03-21 09:54:33.228 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 54: 33: added 29845386 deleted 29810924 
+2016-03-21 09:54:43.229 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 54: 43: added 29845386 deleted 29810924 
+2016-03-21 09:54:53.230 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 54: 53: added 29845386 deleted 29810924 
+2016-03-21 09:55:03.231 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 55: 3: added 29845386 deleted 29810924 
+2016-03-21 09:55:13.232 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 55: 13: added 29845386 deleted 29810924 
+2016-03-21 09:55:23.233 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 55: 23: added 29845386 deleted 29810924 
+2016-03-21 09:55:33.234 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 55: 33: added 29845386 deleted 29810924 
+2016-03-21 09:55:43.235 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 55: 43: added 29845386 deleted 29810924 
+2016-03-21 09:55:53.236 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 55: 53: added 29845386 deleted 29810924 
+2016-03-21 09:56:03.237 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 56: 3: added 29845386 deleted 29810924 
+2016-03-21 09:56:13.238 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 56: 13: added 29845386 deleted 29810924 
+2016-03-21 09:56:23.239 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 56: 23: added 29845386 deleted 29810924 
+2016-03-21 09:56:33.240 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 56: 33: added 29845386 deleted 29810924 
+2016-03-21 09:56:43.241 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 56: 43: added 29845386 deleted 29810924 
+2016-03-21 09:56:53.242 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 56: 53: added 29845386 deleted 29810924 
+2016-03-21 09:57:03.243 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 57: 3: added 29845386 deleted 29810924 
+2016-03-21 09:57:13.244 [info] <0.1956.0>@riak_kv_ord_service_ets_ordered:handle_info:111 timestamp 9: 57: 13: added 29845386 deleted 29810924 
+2016-03-21 09:57:21.884 [info] <0.2390.0> Administrative stop
+2016-03-21 09:57:21.894 [info] <0.326.0>@riak_kv_app:prep_stop:232 Stopping application riak_kv - marked service down.
+2016-03-21 09:57:21.894 [info] <0.326.0>@riak_kv_app:prep_stop:236 Unregistered pb services
+2016-03-21 09:57:21.895 [info] <0.326.0>@riak_kv_app:prep_stop:241 unregistered webmachine routes
+2016-03-21 09:57:21.895 [info] <0.326.0>@riak_kv_app:prep_stop:243 all active put FSMs completed
+2016-03-21 09:57:21.901 [info] <0.406.0>@riak_kv_js_vm:terminate:237 Spidermonkey VM (pool: riak_kv_js_hook) host stopping (<0.406.0>)
+2016-03-21 09:57:21.902 [info] <0.407.0>@riak_kv_js_vm:terminate:237 Spidermonkey VM (pool: riak_kv_js_hook) host stopping (<0.407.0>)
+2016-03-21 09:57:21.902 [info] <0.399.0>@riak_kv_js_vm:terminate:237 Spidermonkey VM (pool: riak_kv_js_reduce) host stopping (<0.399.0>)
+2016-03-21 09:57:21.902 [info] <0.400.0>@riak_kv_js_vm:terminate:237 Spidermonkey VM (pool: riak_kv_js_reduce) host stopping (<0.400.0>)
+2016-03-21 09:57:21.902 [info] <0.401.0>@riak_kv_js_vm:terminate:237 Spidermonkey VM (pool: riak_kv_js_reduce) host stopping (<0.401.0>)
+2016-03-21 09:57:21.903 [info] <0.403.0>@riak_kv_js_vm:terminate:237 Spidermonkey VM (pool: riak_kv_js_reduce) host stopping (<0.403.0>)
+2016-03-21 09:57:21.903 [info] <0.404.0>@riak_kv_js_vm:terminate:237 Spidermonkey VM (pool: riak_kv_js_reduce) host stopping (<0.404.0>)
+2016-03-21 09:57:21.903 [info] <0.402.0>@riak_kv_js_vm:terminate:237 Spidermonkey VM (pool: riak_kv_js_reduce) host stopping (<0.402.0>)
+2016-03-21 09:57:21.903 [info] <0.390.0>@riak_kv_js_vm:terminate:237 Spidermonkey VM (pool: riak_kv_js_map) host stopping (<0.390.0>)
+2016-03-21 09:57:21.904 [info] <0.326.0>@riak_kv_app:stop:254 Stopped  application riak_kv.
+2016-03-21 09:57:21.939 [info] <0.161.0>@riak_core_app:stop:114 Stopped  application riak_core.

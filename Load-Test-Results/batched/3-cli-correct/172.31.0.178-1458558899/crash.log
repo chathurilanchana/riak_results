@@ -1,0 +1,6 @@
+2016-03-21 11:13:57 =SUPERVISOR REPORT====
+     Supervisor: {local,basho_bench_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.86.0>},{name,basho_bench_stats},{mfargs,{basho_bench_stats,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
