@@ -1,0 +1,1 @@
+2016-03-26 22:55:39.030 [error] <0.85.0> Supervisor basho_bench_sup had child basho_bench_stats started with basho_bench_stats:start_link() at <0.86.0> exit with reason killed in context shutdown_error
